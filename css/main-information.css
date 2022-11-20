@@ -1,0 +1,63 @@
+.main-information {
+  display: block;
+  width: 1180px;
+  margin: 0 auto;
+  padding-top: 2em;
+  padding-bottom: 5em;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  -bottom: 1em;
+}
+
+.main-information__title-h2 {
+  position: relative;
+  padding: 1em;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 40px;
+  }
+
+
+.main-information__blockquote {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 50px;
+  text-transform: uppercase;
+}
+
+.colortext {
+  color: #6C0287;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 50px;
+}
+
+.main-information__author {
+  position: relative;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: left;
+  float: right;
+  width: 250px;
+  overflow-wrap: break-word;
+
+}
+
+.main-information__author::before {
+  position: absolute;
+  right: 3.5em;
+  top: 0.27em;
+  content:"" ;
+  background-image: url("/img/main-information/Ellipse.png");
+  font-size: 80px;
+  width: 80px;
+  height: 80px;
+  background-size:contain;
+}

@@ -1,0 +1,17 @@
+.main-reviews {
+  display:block;
+  width: 1180px;
+  margin: 0 auto;
+}
+
+.main-reviews__title-h2 {
+  position: relative;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-transform: uppercase;
+  text-align: center; 
+}
+.main-reviews-list-figure__text {
+  text-align:left;
+}

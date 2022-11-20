@@ -1,0 +1,33 @@
+.header-banner {
+  position: relative;
+  width: 1300px;
+  margin: 0 auto;
+  padding-bottom: 700px;
+}
+
+.header-banner::after {
+  content: "";
+  width: 675px;
+  height: 762px;
+  background-image: url("/img/header-banner/banner.jpg");
+  background-size:contain;
+  position:absolute;
+  top: 4em;
+  left: 34em;
+}
+
+.header-banner__title-h1 {
+  position:relative;
+  font-size: 150px;
+  font-weight: 900;
+  line-height: 100%;
+  margin: 0 auto;
+}
+
+.header-banner__text {
+  position: relative;
+  left: 3em;
+  margin: 0 auto;
+  font-size: 28px;
+  font-weight: 400;
+}

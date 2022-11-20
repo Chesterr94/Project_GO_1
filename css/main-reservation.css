@@ -1,0 +1,155 @@
+.container-reservation{
+  width: 100%;
+  background-color: #440F51;
+}
+
+.main-reservation {
+  display: block;
+  width: 1180px;
+  margin: 0 auto;
+  padding-top: 2em;
+  padding-bottom: 1em;
+  background: #440F51;
+  flex-wrap: wrap;
+}
+
+.main-reservation__title-h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 40px;
+}
+
+.main-reservation-section-title-h3{
+  margin:  0 auto;
+  text-align: center;
+  padding-bottom: 40px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.main-reservation-hall_selection-title-h3{
+  margin:  0 auto;
+  text-align: center;
+  padding-bottom: 40px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.main-reservation-hall_selection-buttons-list{
+  display: flex;
+  gap: 60px;
+  padding-bottom: 68px;
+}
+
+.main-reservation-hall_selection-buttons-list-button{
+  width: 250px;
+  height: 55px;
+  background: #FFFFFF;
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+.main-reservation-section{
+  display: block;
+  width: 1180px;
+}
+
+.main-reservation-section-div{
+  display:flex;
+  justify-content:flex-end;
+  gap: 100px;
+}
+
+.main-reservation-section-div-set{
+  width: 300px;
+  padding-bottom: 67px;
+}
+
+.main-reservation-section-div-form{
+  display: block;
+}
+
+.main-reservation-section-title-h3{
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+
+.main-reservation-section-div-form-title-h4{
+  text-align: center;
+}
+
+
+
+.main-reservation-div{
+  display: flex;
+}
+
+.form{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.form-1{
+  width: 134px;
+  height: 52px;
+}
+
+.form-2{
+  width: 280px;
+  height: 52px;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.main-reservation__button{
+  width: 300px;
+  height: 60px;
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  
+  text-transform: uppercase;
+  color: #6C0287;
+}
+
+.title-h4{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  padding-bottom: 24px;
+}
+
+.list-li-input{
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 25px;
+  padding-left: 10px;
+  margin-right: 10px;
+}
+
+.list-li{
+  display: flex;
+  padding-bottom: 22px;
+}
