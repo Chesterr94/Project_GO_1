@@ -73,10 +73,7 @@
   gap: 100px;
 }
 
-.main-reservation-section-div-set{
-  width: 300px;
-  padding-bottom: 67px;
-}
+
 
 .main-reservation-section-div-form{
   display: block;
@@ -88,12 +85,6 @@
   margin: 0 auto;
   padding-bottom: 40px;
 }
-
-.main-reservation-section-div-form-title-h4{
-  text-align: center;
-}
-
-
 
 .main-reservation-div{
   display: flex;
@@ -141,7 +132,23 @@
   padding-bottom: 24px;
 }
 
-.list-li-input{
+
+
+
+.main-reservation-section-div-set{
+  width: 300px;
+  padding-bottom: 67px;
+}
+
+.main-reservation-section-div-form-title-h4{
+  text-align: center;
+}
+
+.list_consoles{
+  display: block;
+}
+
+.li-input{
   font-weight: 400;
   font-size: 22px;
   line-height: 25px;
@@ -149,7 +156,7 @@
   margin-right: 10px;
 }
 
-.list-li{
+.li{
   display: flex;
   padding-bottom: 22px;
 }

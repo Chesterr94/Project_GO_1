@@ -12,6 +12,10 @@
   text-transform: uppercase;
   text-align: center; 
 }
-.main-reviews-list-figure__text {
+.main-reviews-list-figure-text {
   text-align:left;
+}
+
+.main-reviews-list-figure-img{
+  border-radius: 50%;
 }

@@ -106,16 +106,20 @@
           <div class="main-reservation-hall_selection">
             <h3 class="main-reservation-hall_selection-title-h3">Выбери зал</h3>
             <div class="main-reservation-hall_selection-buttons">
-              <ul class="main-reservation-hall_selection-buttons-list">
-                <li class="main-reservation-hall_selection-buttons-list-li li">
+              <div class="main-reservation-hall_selection-buttons-list">
+                <label class="main-reservation-hall_selection-buttons-list-li li">
                   <button class="main-reservation-hall_selection-buttons-list-button"type="button" name="Halls" value="80’s vibes">80’s vibes</button></li>
-                <li class="main-reservation-hall_selection-buttons-list-li li">
+                </label>
+                <label class="main-reservation-hall_selection-buttons-list-li li">
                   <button class="main-reservation-hall_selection-buttons-list-button"type="button" name="Halls" value="Star wars">Star wars</button></li>
-                <li class="main-reservation-hall_selection-buttons-list-li li">
+                </label>
+                <label class="main-reservation-hall_selection-buttons-list-li li">
                   <button class="main-reservation-hall_selection-buttons-list-button"type="button" name="Halls" value="wild west">wild west</button></li>
-                <li class="main-reservation-hall_selection-buttons-list-li li">
+                </label>
+                <label class="main-reservation-hall_selection-buttons-list-li li">
                   <button class="main-reservation-hall_selection-buttons-list-button"type="button" name="Halls" value="wild west">neon style</button></li>
-              </ul>
+                </label>
+              </div>
             </div>
           </div>
           <section class="main-reservation-section">
@@ -123,20 +127,44 @@
             <div class="main-reservation-section-div">
               <div class="main-reservation-section-div-set">
                 <h4 class="main-reservation-section-div-set-title-h4 title-h4" >Консоли:</h4>
-                <ul class="list">
-                  <li class="list-li"><input class="list-li-input" type="radio" name="game consoles" value="PlayStation"> PlayStation</li>
-                  <li class="list-li"><input class="list-li-input" type="radio" name="game consoles" value="XBOX"> XBOX</li>
-                  <li class="list-li"><input class="list-li-input" type="radio" name="game consoles" value="Dendy"> Dendy</li>
-                  <li class="list-li"><input class="list-li-input" type="radio" name="game consoles" value="Sega Mega Drive"> Sega Mega Drive</li>
+                <ul class="list_consoles">
+                  <li class="list_consoles-li li">
+                    <label>
+                      <input class="list_consoles-li-input li-input" type="radio" name="game consoles" value="PlayStation"> PlayStation</li>
+                    </label>
+                  <li class="list_consoles-li li">
+                    <label>
+                      <input class="list_consoles-li-input li-input" type="radio" name="game consoles" value="XBOX"> XBOX</li>
+                    </label>
+                  <li class="list_consoles-li li">
+                    <label>
+                      <input class="list_consoles-li-input li-input" type="radio" name="game consoles" value="Dendy"> Dendy</li>
+                    </label>
+                  <li class="list_consoles-li li">
+                    <label>
+                      <input class="list_consoles-li-input li-input" type="radio" name="game consoles" value="Sega Mega Drive"> Sega Mega Drive</li>
+                    </label>
                 </ul>
               </div>
               <div class="main-reservation-section-div-set">
                 <h4 class="main-reservation-section-div-set-title-h4 title-h4">Настольные игры:</h4>
-                <ul class="list">
-                  <li class="list-li"><input class="list-li-input" type="checkbox" name="board games" value="Jenga"> Jenga</li>
-                  <li class="list-li"><input class="list-li-input" type="checkbox" name="board games" value="Monopoly"> Monopoly</li>
-                  <li class="list-li"><input class="list-li-input" type="checkbox" name="board games" value="Munchkin"> Munchkin</li>
-                  <li class="list-li"><input class="list-li-input" type="checkbox" name="board games" value="Alias"> Alias</li>
+                <ul class="list_board_games">
+                  <label>
+                    <li class="list_board_games-li li">
+                      <input class="list_boar_games-li-input li-input" type="checkbox" name="board games" value="Jenga"> Jenga</li>
+                  </label>
+                  <label>
+                    <li class="list_board_games-li li">
+                      <input class="list_boar_games-li-input li-input" type="checkbox" name="board games" value="Monopoly"> Monopoly</li>
+                  </label>
+                  <label>
+                    <li class="list_board_games-li li">
+                      <input class="list_boar_games-li-input li-input" type="checkbox" name="board games" value="Munchkin"> Munchkin</li>
+                  </label>
+                  <label>
+                    <li class="list_board_games-li li">
+                      <input class="list_boar_games-li-input li-input" type="checkbox" name="board games" value="Alias"> Alias</li>
+                  </label>
                 </ul>
               </div>
               <div class="main-reservation-section-div-set">
@@ -192,31 +220,31 @@
           <h2 class="main-reviews__title-h2 title-h2">Отзывы посетителей</h2>
           <ul class="main-reviews__list">
             <li>
-              <article class="main-reviews__content-wrapper">
-                <h3 class="main-reviews-list__title-h3 title-h3">Билли Херрингтон по прозвищу «Аники»</h3>
+              <article class="main-reviews-wrapper">
+                <h3 class="main-reviews-list-wraper-title-h3 title-h3">Билли Херрингтон по прозвищу «Аники»</h3>
                 <figure class="main-reviews-list-figure">
-                  <img class="main-reviews-list-figure__img img" src="img/rev1.jpg" alt="фотография посетителя" width="154">
-                  <figcaption class=" main-reviews-list-figure__text">Отмечали здесь день рождения с компанией друзей, все было очень круто Fisting это просто бомба, 
+                  <img class="main-reviews-list-figure-img img" src="img/rev1.jpg" alt="фотография посетителя" width="154">
+                  <figcaption class="main-reviews-list-figure-text">Отмечали здесь день рождения с компанией друзей, все было очень круто Fisting это просто бомба, 
                     никогда я еще не был в таком полном погружении, сервис на высоте!</figcaption>
                 </figure>
               </article>
             </li>
             <li>
-              <article class="main-reviews__content-wrapper">
-                <h3 class="main-reviews-list__title-h3 title-h3">Денни Ли по прозвищу «Казуя»</h3>
+              <article class="main-reviews-wrapper">
+                <h3 class="main-reviews-list-wraper-title-h3 title-h3">Денни Ли по прозвищу «Казуя»</h3>
                 <figure class="main-reviews-list-figure">
-                  <img class="main-reviews-list-figure__img img" src="img/rev2.jpg" alt="фотография еще одного довольного посетителя" width="154">
-                  <figcaption class="main-reviews-list-figure__text">Были в комнате FUCKING SLAVES, пели в караоке под  ♂SUCK SOME DICK, отличный
+                  <img class="main-reviews-list-figure-img img" src="img/rev2.jpg" alt="фотография еще одного довольного посетителя" width="154">
+                  <figcaption class="main-reviews-list-figure-text">Были в комнате FUCKING SLAVES, пели в караоке под  ♂SUCK SOME DICK, отличный
                     получился корпоратив! У нас в городе больше нет подобных заведений</figcaption>
                 </figure>
               </article>
             </li>
             <li>
-              <article class="main-reviews__content-wrapper">
-                <h3 class="main-reviews-list__title-h3 title-h3">Бразильский стриптизёр Рикардо Милос</h3>
+              <article class="main-reviews-wrapper">
+                <h3 class="main-reviews-list-wraper-title-h3 title-h3">Бразильский стриптизёр Рикардо Милос</h3>
                 <figure class="main-reviews-list-figure">
-                  <img class="main-reviews-list-figure__img img" src="img/rev3.jpg" alt="фотография последнего посетителя" width="154">
-                  <figcaption class="main-reviews-list-figure__text">Немного подвисала игра в  DEEP ♂ DARK ♂ FANTASY ♂, а так все норм. Крутое оформление
+                  <img class="main-reviews-list-figure-img img" src="img/rev3.jpg" alt="фотография последнего посетителя" width="154">
+                  <figcaption class="main-reviews-list-figure-text">Немного подвисала игра в  DEEP ♂ DARK ♂ FANTASY ♂, а так все норм. Крутое оформление
                     комнаты в стиле зведных войн, попал в атмосферу космоса не жаль отдать THREE HUNDRED BUCKS.</figcaption>
                 </figure>
               </article>
