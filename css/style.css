@@ -24,6 +24,9 @@ section {
   padding-bottom: 1em;
 }
 
+fieldset{
+  border:0 none;
+}
 
 
 

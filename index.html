@@ -104,27 +104,27 @@
           method="POST">
           <h2 class="main-reservation__title-h2 title-h2">Забронировать зал просто</h2>
           <div class="main-reservation-hall-selection">
-            <h3 class="main-reservation-hall-selection__title-h3">Выбери зал</h3>
-            <div class="main-reservation-hall-selection-buttons-list">
-              <label class="main-reservation-hall-selection-buttons-list__li li">
-                <button class="main-reservation-hall-selection-buttons-list__button"type="button" name="Halls" value="80’s vibes">80’s vibes</button></li>
-              </label>
-              <label class="main-reservation-hall-selection-buttons-list__li li">
-                <button class="main-reservation-hall-selection-buttons-list__button"type="button" name="Halls" value="Star wars">Star wars</button></li>
-              </label>
-              <label class="main-reservation-hall-selection-buttons-list__li li">
-                <button class="main-reservation-hall-selection-buttons-list__button"type="button" name="Halls" value="wild west">wild west</button></li>
-              </label>
-              <label class="main-reservation-hall-selection-buttons-list__li li">
-                <button class="main-reservation-hall-selection-buttons-list__button"type="button" name="Halls" value="wild west">neon style</button></li>
-              </label>
-            </div>
+            <fieldset class="main-reservation-hall-selection-buttons-list">
+              <legend class="main-reservation-hall-selection__title-h3">Выбери зал</legend>
+                <label class="main-reservation-hall-selection-buttons-list__li li">
+                  <button class="main-reservation-hall-selection-buttons-list__button"type="button" name="Halls" value="80’s vibes">80’s vibes</button></li>
+                </label>
+                <label class="main-reservation-hall-selection-buttons-list__li li">
+                  <button class="main-reservation-hall-selection-buttons-list__button"type="button" name="Halls" value="Star wars">Star wars</button></li>
+                </label>
+                <label class="main-reservation-hall-selection-buttons-list__li li">
+                  <button class="main-reservation-hall-selection-buttons-list__button"type="button" name="Halls" value="wild west">wild west</button></li>
+                </label>
+                <label class="main-reservation-hall-selection-buttons-list__li li">
+                  <button class="main-reservation-hall-selection-buttons-list__button"type="button" name="Halls" value="wild west">neon style</button></li>
+                </label>
+            </fieldset>
           </div>
           <section class="main-reservation-section">
             <h3 class="main-reservation-section-title-h3">Собери свой набор развлечений</h3>
             <div class="main-reservation-section-div">
-              <div class="main-reservation-section-div-set">
-                <h4 class="main-reservation-section-div-set-title-h4 title-h4" >Консоли:</h4>
+              <fieldset class="main-reservation-section-div-set">
+                <legend class="main-reservation-section-div-set-title-h4 title-h4" >Консоли:</legend>
                 <ul class="list__consoles list">
                   <li class="list-consoles-li li">
                     <label>
@@ -143,9 +143,9 @@
                       <input class="list-consoles-li__input li__input" type="radio" name="game consoles" value="Sega Mega Drive"> Sega Mega Drive</li>
                     </label>
                 </ul>
-              </div>
-              <div class="main-reservation-section-div-set">
-                <h4 class="main-reservation-section-div-set-title-h4 title-h4">Настольные игры:</h4>
+              </fieldset>
+              <fieldset class="main-reservation-section-div-set">
+                <legend class="main-reservation-section-div-set-title-h4 title-h4">Настольные игры:</legend>
                 <ul class="list__board-games list">
                   <label>
                     <li class="list-board-games-li li">
@@ -164,9 +164,9 @@
                       <input class="list-boar-games-li__input li__input" type="checkbox" name="board games" value="Alias"> Alias</li>
                   </label>
                 </ul>
-              </div>
-              <div class="main-reservation-section-div-set">
-                <h4 class="main-reservation-section-div-set-title-h4 title-h4 ">Дополнительно:</h4>
+              </fieldset>
+              <fieldset class="main-reservation-section-div-set">
+                <legend class="main-reservation-section-div-set-title-h4 title-h4 ">Дополнительно:</legend>
                 <ul class="list-additionally list">
                   <li class="list-additionally-li li">
                     <label>
@@ -179,22 +179,42 @@
                     </label>
                   </li>
                 </ul>
-              </div>
+              </fieldset>
             </div>
-            <div class="main-reservation-section-div-form">
-              <h4 class="main-reservation-section-div-form-title-h4 title-h4"> Выбери дату и время</h4>
-                <div class="form">
-                  <input class="form__date form-1" type="date" name="date" required>
-                  <input class="form__time form-1" type="time" name="time" required>
-                  <input class="form__number_of_people" type="number" max="10" name="number_of_people" placeholder="Сколько человеков" required>
-                  <input class="form__first_name form-2" type="text" name="First_name" required>Имя
-                  <input class="form__second_name form-2" type="text" name="Second name" required> Фамилия
-                  <input class="form__telephone form-2" type="tel" name="Telephone number" required> Номер телефона
-                  <input class="form__email form-2" type="email" name="email" required> Электронная почта
-                </div>
+            <div class="main-reservation-section-form">
+              <legend class="main-reservation-section-div-form-title-h4"> Выбери дату и время </legend>
+                <fieldset class="main-reservation-section-div-form form">
+                  <label>
+                    <input class="form__date form-1" type="date" name="date" required>
+                  </label>
+                  <label>
+                    <input class="form__time form-1" type="time" name="time" required>
+                  </label>
+                  <label>
+                    <input class="form__number-of-people form-2" type="number" max="10" name="number-of-people" placeholder="Сколько человеков" required>
+                </fieldset>
+                <fieldset class="main-reservation-section-div-form-3 form">
+                  </label>
+                  <label>
+                    <input class="form__first-name form-3" type="text" name="First_name" required> Имя
+                  </label>
+                  <label>
+                    <input class="form__second-name form-3" type="text" name="Second name" required> Фамилия
+                  </label>
+                </fieldset>
+                <fieldset class="main-reservation-section-div-form form">
+                  <label>
+                    <input class="form__telephone form-4" type="tel" name="Telephone number" required> Номер телефона
+                  </label>
+                  <label>
+                    <input class="form__email form-4" type="email" name="email" required> Электронная почта
+                  </label>
+                </fieldset>
             </div>
           </section>
-          <button class="main-reservation__button button"  type="submit"> Забронировать</button>
+          <div class="main-reservation-div">
+            <button class="main-reservation-div__button button"  type="submit"> Забронировать</button>
+          </div>
           </form>
         </section>
       </div>
