@@ -103,23 +103,21 @@
           <form action="https://jsonplaceholder.typicode.com/posts"
           method="POST">
           <h2 class="main-reservation__title-h2 title-h2">Забронировать зал просто</h2>
-          <div class="main-reservation-hall_selection">
-            <h3 class="main-reservation-hall_selection-title-h3">Выбери зал</h3>
-            <div class="main-reservation-hall_selection-buttons">
-              <div class="main-reservation-hall_selection-buttons-list">
-                <label class="main-reservation-hall_selection-buttons-list-li li">
-                  <button class="main-reservation-hall_selection-buttons-list-button"type="button" name="Halls" value="80’s vibes">80’s vibes</button></li>
-                </label>
-                <label class="main-reservation-hall_selection-buttons-list-li li">
-                  <button class="main-reservation-hall_selection-buttons-list-button"type="button" name="Halls" value="Star wars">Star wars</button></li>
-                </label>
-                <label class="main-reservation-hall_selection-buttons-list-li li">
-                  <button class="main-reservation-hall_selection-buttons-list-button"type="button" name="Halls" value="wild west">wild west</button></li>
-                </label>
-                <label class="main-reservation-hall_selection-buttons-list-li li">
-                  <button class="main-reservation-hall_selection-buttons-list-button"type="button" name="Halls" value="wild west">neon style</button></li>
-                </label>
-              </div>
+          <div class="main-reservation-hall-selection">
+            <h3 class="main-reservation-hall-selection__title-h3">Выбери зал</h3>
+            <div class="main-reservation-hall-selection-buttons-list">
+              <label class="main-reservation-hall-selection-buttons-list__li li">
+                <button class="main-reservation-hall-selection-buttons-list__button"type="button" name="Halls" value="80’s vibes">80’s vibes</button></li>
+              </label>
+              <label class="main-reservation-hall-selection-buttons-list__li li">
+                <button class="main-reservation-hall-selection-buttons-list__button"type="button" name="Halls" value="Star wars">Star wars</button></li>
+              </label>
+              <label class="main-reservation-hall-selection-buttons-list__li li">
+                <button class="main-reservation-hall-selection-buttons-list__button"type="button" name="Halls" value="wild west">wild west</button></li>
+              </label>
+              <label class="main-reservation-hall-selection-buttons-list__li li">
+                <button class="main-reservation-hall-selection-buttons-list__button"type="button" name="Halls" value="wild west">neon style</button></li>
+              </label>
             </div>
           </div>
           <section class="main-reservation-section">
@@ -127,51 +125,59 @@
             <div class="main-reservation-section-div">
               <div class="main-reservation-section-div-set">
                 <h4 class="main-reservation-section-div-set-title-h4 title-h4" >Консоли:</h4>
-                <ul class="list_consoles">
-                  <li class="list_consoles-li li">
+                <ul class="list__consoles list">
+                  <li class="list-consoles-li li">
                     <label>
-                      <input class="list_consoles-li-input li-input" type="radio" name="game consoles" value="PlayStation"> PlayStation</li>
+                      <input class="list-consoles-li__input li__input" type="radio" name="game consoles" value="PlayStation"> PlayStation</li>
                     </label>
-                  <li class="list_consoles-li li">
+                  <li class="list-consoles-li li">
                     <label>
-                      <input class="list_consoles-li-input li-input" type="radio" name="game consoles" value="XBOX"> XBOX</li>
+                      <input class="list-consoles-li__input li__input" type="radio" name="game consoles" value="XBOX"> XBOX</li>
                     </label>
-                  <li class="list_consoles-li li">
+                  <li class="list-consoles-li li">
                     <label>
-                      <input class="list_consoles-li-input li-input" type="radio" name="game consoles" value="Dendy"> Dendy</li>
+                      <input class="list-consoles-li__input li__input" type="radio" name="game consoles" value="Dendy"> Dendy</li>
                     </label>
-                  <li class="list_consoles-li li">
+                  <li class="list-consoles-li li">
                     <label>
-                      <input class="list_consoles-li-input li-input" type="radio" name="game consoles" value="Sega Mega Drive"> Sega Mega Drive</li>
+                      <input class="list-consoles-li__input li__input" type="radio" name="game consoles" value="Sega Mega Drive"> Sega Mega Drive</li>
                     </label>
                 </ul>
               </div>
               <div class="main-reservation-section-div-set">
                 <h4 class="main-reservation-section-div-set-title-h4 title-h4">Настольные игры:</h4>
-                <ul class="list_board_games">
+                <ul class="list__board-games list">
                   <label>
-                    <li class="list_board_games-li li">
-                      <input class="list_boar_games-li-input li-input" type="checkbox" name="board games" value="Jenga"> Jenga</li>
+                    <li class="list-board-games-li li">
+                      <input class="list-boar-games-li__input li__input" type="checkbox" name="board games" value="Jenga"> Jenga</li>
                   </label>
                   <label>
-                    <li class="list_board_games-li li">
-                      <input class="list_boar_games-li-input li-input" type="checkbox" name="board games" value="Monopoly"> Monopoly</li>
+                    <li class="list-board-games-li li">
+                      <input class="list-boar-games-li__input li__input" type="checkbox" name="board games" value="Monopoly"> Monopoly</li>
                   </label>
                   <label>
-                    <li class="list_board_games-li li">
-                      <input class="list_boar_games-li-input li-input" type="checkbox" name="board games" value="Munchkin"> Munchkin</li>
+                    <li class="list-board-games-li li">
+                      <input class="list-boar-games-li__input li__input" type="checkbox" name="board games" value="Munchkin"> Munchkin</li>
                   </label>
                   <label>
-                    <li class="list_board_games-li li">
-                      <input class="list_boar_games-li-input li-input" type="checkbox" name="board games" value="Alias"> Alias</li>
+                    <li class="list-board-games-li li">
+                      <input class="list-boar-games-li__input li__input" type="checkbox" name="board games" value="Alias"> Alias</li>
                   </label>
                 </ul>
               </div>
               <div class="main-reservation-section-div-set">
                 <h4 class="main-reservation-section-div-set-title-h4 title-h4 ">Дополнительно:</h4>
-                <ul class="list">
-                  <li class="list-li"><input class="list-li-input" type="checkbox" name="additionally" value="karaoke"> Караоке</li>
-                  <li class="list-li"><input class="list-li-input" type="checkbox" name="additionally" value="VR"> VR</li>
+                <ul class="list-additionally list">
+                  <li class="list-additionally-li li">
+                    <label>
+                      <input class="list-additionally-li__input li__input" type="checkbox" name="additionally" value="karaoke"> Караоке
+                    </label>
+                  </li>
+                  <li class="list-additionally-li li">
+                    <label>
+                      <input class="list-additionally-li__input li__input" type="checkbox" name="additionally" value="VR"> VR
+                    </label>
+                  </li>
                 </ul>
               </div>
             </div>

@@ -32,7 +32,7 @@
   line-height: 28px;
 }
 
-.main-reservation-hall_selection-title-h3{
+.main-reservation-hall-selection__title-h3{
   margin:  0 auto;
   text-align: center;
   padding-bottom: 40px;
@@ -42,17 +42,18 @@
   line-height: 28px;
 }
 
-.main-reservation-hall_selection-buttons-list{
+.main-reservation-hall-selection-buttons-list{
   display: flex;
   gap: 60px;
   padding-bottom: 68px;
 }
 
-.main-reservation-hall_selection-buttons-list-button{
+.main-reservation-hall-selection-buttons-list__button{
   width: 250px;
   height: 55px;
   background: #FFFFFF;
   border-radius: 8px;
+  border-color: #FFFFFF;
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
@@ -132,9 +133,6 @@
   padding-bottom: 24px;
 }
 
-
-
-
 .main-reservation-section-div-set{
   width: 300px;
   padding-bottom: 67px;
@@ -144,11 +142,11 @@
   text-align: center;
 }
 
-.list_consoles{
+.list{
   display: block;
 }
 
-.li-input{
+.li__input{
   font-weight: 400;
   font-size: 22px;
   line-height: 25px;
