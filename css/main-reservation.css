@@ -72,10 +72,26 @@
   display: flex;
   justify-content: center;
   gap: 100px;
+  margin: 0 auto;
 }
 
-.main-reservation-section-div-set {
+.main-reservation-section-div-set-consoles {
   display: flex;
+  width: 280px;
+  flex-direction: column;
+  padding-bottom: 67px;
+}
+
+.main-reservation-section-div-set-board-games{
+  display: flex;
+  width: 300px;
+  flex-direction: column;
+  padding-bottom: 67px;
+}
+
+.main-reservation-section-div-set-additionally{
+  display: flex;
+  width: 300px;
   flex-direction: column;
   padding-bottom: 67px;
 }
