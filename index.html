@@ -106,16 +106,16 @@
           <div class="main-reservation-hall-selection">
             <fieldset class="main-reservation-hall-selection-buttons-list">
               <legend class="main-reservation-hall-selection__title-h3">Выбери зал</legend>
-                <label class="main-reservation-hall-selection-buttons-list__li li">
+                <label class="main-reservation-hall-selection-buttons-list__li">
                   <button class="main-reservation-hall-selection-buttons-list__button"type="button" name="Halls" value="80’s vibes">80’s vibes</button></li>
                 </label>
-                <label class="main-reservation-hall-selection-buttons-list__li li">
+                <label class="main-reservation-hall-selection-buttons-list__li">
                   <button class="main-reservation-hall-selection-buttons-list__button"type="button" name="Halls" value="Star wars">Star wars</button></li>
                 </label>
-                <label class="main-reservation-hall-selection-buttons-list__li li">
+                <label class="main-reservation-hall-selection-buttons-list__li">
                   <button class="main-reservation-hall-selection-buttons-list__button"type="button" name="Halls" value="wild west">wild west</button></li>
                 </label>
-                <label class="main-reservation-hall-selection-buttons-list__li li">
+                <label class="main-reservation-hall-selection-buttons-list__li">
                   <button class="main-reservation-hall-selection-buttons-list__button"type="button" name="Halls" value="wild west">neon style</button></li>
                 </label>
             </fieldset>
@@ -184,29 +184,29 @@
             <div class="main-reservation-section-form">
               <legend class="main-reservation-section-div-form-title-h4"> Выбери дату и время </legend>
                 <fieldset class="main-reservation-section-div-form form">
-                  <label>
+                  <label class="label">
                     <input class="form__date form-1" type="date" name="date" required>
                   </label>
-                  <label>
+                  <label class="label">
                     <input class="form__time form-1" type="time" name="time" required>
                   </label>
-                  <label>
+                  <label class="label">
                     <input class="form__number-of-people form-2" type="number" max="10" name="number-of-people" placeholder="Сколько человеков" required>
+                  </label class="label">
                 </fieldset>
                 <fieldset class="main-reservation-section-div-form-3 form">
-                  </label>
-                  <label>
+                  <label class="label">
                     <input class="form__first-name form-3" type="text" name="First_name" required> Имя
                   </label>
-                  <label>
+                  <label  class="label">
                     <input class="form__second-name form-3" type="text" name="Second name" required> Фамилия
                   </label>
                 </fieldset>
                 <fieldset class="main-reservation-section-div-form form">
-                  <label>
+                  <label class="label">
                     <input class="form__telephone form-4" type="tel" name="Telephone number" required> Номер телефона
                   </label>
-                  <label>
+                  <label class="label">
                     <input class="form__email form-4" type="email" name="email" required> Электронная почта
                   </label>
                 </fieldset>
@@ -231,6 +231,37 @@
           </div>
         </div>
       </section>  
+      <section class="main-reviews">
+        <div class="container">
+          <h2 class="main-reviews__title-h2 title-h2">Отзывы посетителей</h2>
+          <ul class="main-reviews__list">
+            <li class="main-reviews-list-li">
+              <figure class="main-reviews-list-li-figure">
+                <img class="main-reviews-list-li-figure-img img" src="img/main-reviews/rev1.jpg" alt="фотография посетителя" width="154">
+                <figcaption class="main-reviews-list-li-figure__figcaption">Билли Херрингтон по прозвищу «Аники»</figcaption>
+              </figure>
+              <p class="main-reviews-list-li-figure-text">Отмечали здесь день рождения с компанией друзей, все было очень круто Fisting это просто бомба, 
+                никогда я еще не был в таком полном погружении, сервис на высоте!</p>
+            </li>
+            <li class="main-reviews-list-li">
+                <figure class="main-reviews-list-li-figure">
+                  <img class="main-reviews-list-li-figure-img img" src="img/main-reviews/rev2.jpg" alt="фотография еще одного довольного посетителя" width="154">
+                  <figcaption class="main-reviews-list-li-figure__figcaption">Денни Ли по прозвищу «Казуя»</figcaption>
+                </figure>
+                <p class="main-reviews-list-li-figure-text">Были в комнате FUCKING SLAVES, пели в караоке под  ♂SUCK SOME DICK, отличный
+                  получился корпоратив! У нас в городе больше нет подобных заведений</p>
+            </li>
+            <li class="main-reviews-list-li">
+                <figure class="main-reviews-list-li-figure">
+                  <img class="main-reviews-list-li-figure-img img" src="img/main-reviews/rev3.jpg" alt="фотография последнего посетителя" width="154">
+                  <figcaption class="main-reviews-list-li-figure__figcaption">Бразильский стриптизёр Рикардо Милос</figcaption>
+                </figure>
+                <p class="main-reviews-list-li-figure-text">Немного подвисала игра в  DEEP ♂ DARK ♂ FANTASY ♂, а так все норм. Крутое оформление
+                  комнаты в стиле зведных войн, попал в атмосферу космоса не жаль отдать THREE HUNDRED BUCKS.</p>
+            </li>
+          </ul>
+        </div>
+      </section>
       <section class="main-questions">
         <div class="container">
           <h2 class="main-questions__title-h2 title-h2">Частые вопросы</h2>
@@ -239,43 +270,6 @@
           <p class="main-questions__text text">Какая комната самая популярная?</p>
           <p class="main-questions__text text">Как получить вип карту?</p>
           <p class="main-questions__text text">Какая комната самая DEEP ♂ DARK ♂?</p>
-        </div>
-      </section>
-      <section class="main-reviews">
-        <div class="container">
-          <h2 class="main-reviews__title-h2 title-h2">Отзывы посетителей</h2>
-          <ul class="main-reviews__list">
-            <li>
-              <article class="main-reviews-wrapper">
-                <h3 class="main-reviews-list-wraper-title-h3 title-h3">Билли Херрингтон по прозвищу «Аники»</h3>
-                <figure class="main-reviews-list-figure">
-                  <img class="main-reviews-list-figure-img img" src="img/rev1.jpg" alt="фотография посетителя" width="154">
-                  <figcaption class="main-reviews-list-figure-text">Отмечали здесь день рождения с компанией друзей, все было очень круто Fisting это просто бомба, 
-                    никогда я еще не был в таком полном погружении, сервис на высоте!</figcaption>
-                </figure>
-              </article>
-            </li>
-            <li>
-              <article class="main-reviews-wrapper">
-                <h3 class="main-reviews-list-wraper-title-h3 title-h3">Денни Ли по прозвищу «Казуя»</h3>
-                <figure class="main-reviews-list-figure">
-                  <img class="main-reviews-list-figure-img img" src="img/rev2.jpg" alt="фотография еще одного довольного посетителя" width="154">
-                  <figcaption class="main-reviews-list-figure-text">Были в комнате FUCKING SLAVES, пели в караоке под  ♂SUCK SOME DICK, отличный
-                    получился корпоратив! У нас в городе больше нет подобных заведений</figcaption>
-                </figure>
-              </article>
-            </li>
-            <li>
-              <article class="main-reviews-wrapper">
-                <h3 class="main-reviews-list-wraper-title-h3 title-h3">Бразильский стриптизёр Рикардо Милос</h3>
-                <figure class="main-reviews-list-figure">
-                  <img class="main-reviews-list-figure-img img" src="img/rev3.jpg" alt="фотография последнего посетителя" width="154">
-                  <figcaption class="main-reviews-list-figure-text">Немного подвисала игра в  DEEP ♂ DARK ♂ FANTASY ♂, а так все норм. Крутое оформление
-                    комнаты в стиле зведных войн, попал в атмосферу космоса не жаль отдать THREE HUNDRED BUCKS.</figcaption>
-                </figure>
-              </article>
-            </li>
-          </ul>
         </div>
       </section>
     </main>   
