@@ -7,11 +7,12 @@
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
-  -bottom: 1em;
+  padding-bottom: 1em;
 }
 
-.main-information__title-h2 {
-  position: relative;
+.main-information-container__title-h2 {
+  justify-content: center;
+  margin: 0 auto;
   padding: 1em;
   font-weight: 700;
   font-size: 40px;
@@ -22,7 +23,7 @@
   }
 
 
-.main-information__blockquote {
+.main-information-container__blockquote {
   font-style: normal;
   font-weight: 400;
   font-size: 44px;
@@ -37,7 +38,7 @@
   line-height: 50px;
 }
 
-.main-information__author {
+.main-information-container-author {
   position: relative;
   font-style: normal;
   font-weight: 400;
@@ -50,7 +51,7 @@
 
 }
 
-.main-information__author::before {
+.main-information-container-author::before {
   position: absolute;
   right: 3.5em;
   top: 0.27em;
