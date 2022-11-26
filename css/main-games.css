@@ -1,0 +1,42 @@
+.main-games-container{
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 106px;
+}
+
+.main-games__title-h2{
+  display: flex;
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-transform: uppercase;
+  padding-bottom: 41px;
+}
+
+.main-games__table{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px 20px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.table__block{
+  position: relative;
+  width: 380px;
+}
+
+.table__text{
+  position: absolute;
+  width: 300px;
+  top: 165px;
+  right: 50px;
+  text-align:left;
+  justify-content: baseline;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+}

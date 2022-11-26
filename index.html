@@ -11,30 +11,47 @@
 <body>
   <header class="header">
     <div class="container">
+      <div class="header-nav">
+        <div class="header-logo">
+          <figure >
+            <img class="header-logo__img" src="/img/header-nav/GO.png" alt="логотип деве большие буквы GO">
+          </figure>
+        </div>
+        <nav>
+          <ul class="nav-list">
+            <li class="nav-list__item"><a href="#halls">Залы</a></li>
+            <li class="nav-list__item"><a href="#about_us">О нас</a></li>
+            <li class="nav-list__item"><a href="#reservation">Бронь</a></li>
+            <li class="nav-list__item"><a href="#reviews">Отзывы</a></li>
+            <li class="nav-list__item"><a href="#contacts">Контакты</a></li>
+          </ul>
+        </nav>
+        <div class="header-nav-button">
+          <figure>
+            <button class="header-nav-button__button"  type="submit"> Заказать звонок</button>
+          </figure>
+        </div>
+      </div>
       <div class="header-banner">
         <h1 class="header-banner__title-h1 title-h1">GAME OVER</h1>
         <p class="header-banner__text text">Новый формат игр и отдыха </p>
+        <div class="header-banner-info">
+          <p class="header-banner-info-hall"><span class="header-banner-info-hall__text">4</span>   Тематических зала</p>
+          <p class="header-banner-info-devices"><span class="header-banner-info-devices__text">new</span> Новейшая апаратура</p>
+          <div class="header-banner-button">
+            <button class="header-baner-button__button">забронировать</button>
+          </div>
+          <div class="header-banner-down">
+            <p class="header-banner-down__down" href="#down"></p>
+          </div>
+        </div>
       </div>
     </div>
-    <!--
-    <div class="header-nav">
-      <h2 class="header-nav__title-h2 title-h2">Меню</h2>
-      <nav>
-        <ul>
-          <li class="nav-list__item"><a href="#Halls">Залы</a></li>
-          <li class="nav-list__item"><a href="#about us">О нас</a></li>
-          <li class="nav-list__item"><a href="#reservation">Бронь</a></li>
-          <li class="nav-list__item"><a href="#reviews">Отзывы</a></li>
-          <li class="nav-list__item"><a href="#contacts">Контакты</a></li>
-        </ul>
-      </nav>
-    </div>
-    -->
     </header>
     <main class="main">
-      <div class="container">
-        <section class="main-games">
-          <h2 class="main-games__title-h2 title-h2">У нас есть всё для класного отдыха с друзьями!</h2>
+      <section class="main-games" name="down">
+        <h2 class="main-games__title-h2 title-h2">У нас есть всё для класного отдыха с друзьями!</h2>
+        <div class="main-games-container">
           <ul class="main-games__table">
             <li>
               <figure class="table__block">
@@ -73,11 +90,11 @@
               </figure>
             </li>
           </ul>
-        </section>
-      </div>
+        </div>
+      </section>
       <div class="container">
-        <h2 class="main-halls__title-h2 title-h2" id="Halls">Наши залы</h2>
-        <section class="main-halls">
+        <h2 class="main-halls__title-h2 title-h2" id="halls">Наши залы</h2>
+        <section class="main-halls" id="halls">
           <figure class="main-halls__figure">
             <img class="main-halls__img img" src="/img/main-halls/80_vibe.jpg" alt="Рисунок аудиокасет на полу кросовок и магнитофона" width="1180" height="710">
             <figcaption class="main-halls__text">80`S VIBE</figcaption>
@@ -98,7 +115,7 @@
           </figure>
         </section>
       </div>
-      <div class="container-reservation">
+      <div class="container-reservation" id="reservation">
         <section class="main-reservation reservation">
           <form action="https://jsonplaceholder.typicode.com/posts"
           method="POST">
@@ -240,7 +257,7 @@
       </section>  
       <section class="main-reviews">
         <div class="container">
-          <h2 class="main-reviews__title-h2 title-h2">Отзывы посетителей</h2>
+          <h2 class="main-reviews__title-h2 title-h2" id="reviews">Отзывы посетителей</h2>
           <ul class="main-reviews__list">
             <li class="main-reviews-list-li">
               <figure class="main-reviews-list-li-figure">
@@ -282,7 +299,7 @@
     </main>   
     <footer class="footer">
       <section class="footer-contacts">
-        <h2 class="footer-contacts__title-h2">Контакты</h2>
+        <h2 class="footer-contacts__title-h2" id="contacts">Контакты</h2>
         <div class="footer-contacts-container">
           <div class="footer-contacts-container-block">
             <ul class="footer-contacts-container-block-list">
