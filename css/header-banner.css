@@ -76,10 +76,6 @@
   color: #CD06FF;
 }
 
-.header-banner-button{
-  padding-bottom: 254px;
-}
-
 .header-baner-button__button{
   width: 374px;
   height: 80px;
@@ -93,16 +89,23 @@
   text-transform: uppercase;
   color: #FFFFFF;
   border-color: #6C0287;
-  flex-basis: 100%;
 }
 
-.header-banner-ellipse{
+.header-banner-down{
+  padding-bottom: 190px;
+  justify-content: center;
+  z-index: 1;
+  padding-left: 155px;
+  padding-top: 40px;
+}
+
+.header-banner-down__down{
+  background: none;
+  border: none;
   width: 97px;
   height: 97px;
-  background-image: url("/img/header-nav/Vector2.svg");
-}
-
-.header-banner-down-rectangle{
+  background-image: url("/img/header-nav/down.svg");
+  background-repeat: no-repeat;
 
 
 }

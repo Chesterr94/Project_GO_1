@@ -8,20 +8,7 @@
 .header-logo{
 }
 
-.header-logo__img{
-  position: relative;
-}
 
-.header-logo__img::before{
-  content: "";
-  background-image: url("/img/header-nav/Vector.svg");
-  background-size: contain;
-  position: absolute;
-  width: 51px;
-  height: 32px;
-  left: 0px;
-  top: 0px;
-}
 
 .nav-list{
   display: flex;
