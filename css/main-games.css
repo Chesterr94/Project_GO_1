@@ -1,6 +1,8 @@
 .main-games-container{
+  width: 1180px;
   display: flex;
   flex-wrap: wrap;
+  margin: 0 auto;
   padding-bottom: 106px;
 }
 
@@ -39,4 +41,73 @@
   font-weight: 700;
   font-size: 20px;
   line-height: 28px;
+}
+
+.li__input{
+  display: none;
+}
+
+.list-consoles-li{
+  display: flex;
+  align-items: center;
+}
+
+.span{
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 25px;
+}
+
+.list-consoles-li__fake{
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.list-consoles-li__fake::before{
+  content: "";
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color:blueviolet;
+  opacity: 0;
+  transition: .2s;
+}
+
+.list-consoles-li__input:checked + .list-consoles-li__fake::before{
+  opacity: 1;
+}
+
+.fake{
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.fake::before{
+  content: "";
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 14px;
+  height: 14px;
+  background-color:blueviolet;
+  opacity: 0;
+  transition: .2s;
+}
+
+.li__input:checked + .fake::before{
+  opacity: 1;
 }

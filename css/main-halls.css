@@ -5,6 +5,7 @@
   text-align: center;
   text-transform: uppercase;
   padding-bottom: 60px;
+  flex-basis: 100%;
 }
 
 .main-halls {
