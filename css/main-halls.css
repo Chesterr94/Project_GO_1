@@ -10,14 +10,16 @@
 
 .main-halls {
   display: flex;
-  flex-wrap:wrap;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 50px;
-  text-transform: uppercase;
-  text-align: center;
-  margin: 0 auto;
+
+}
+
+.main-halls__con{
+  width: 1180px;
+  display: inline-flex;
+  flex-wrap: wrap;
   gap: 20px;
+  margin: 0 auto;
+  padding-bottom: 100px;
 }
 
 .main-halls__figure {
@@ -31,7 +33,6 @@
   background-image: url("../img/Future_design/80_vibe.jpg");
   background-repeat: no-repeat;
   width: 580px;
-  margin: 0 auto;
 }
 
 .main-halls__text {
