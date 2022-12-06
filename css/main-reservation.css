@@ -169,11 +169,44 @@
   width: 134px;
   height: 52px;
   appearance: none;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
   
 }
 
+
+
 .form__date::-webkit-calendar-picker-indicator{
   opacity: 0;
+}
+
+.form__time::-webkit-calendar-picker-indicator{
+  opacity: 0;
+}
+
+.form__time{
+  position: relative;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.form-1::placeholder{
+  color: #211E1E;
+  opacity: 1;
+  padding: 10px;
+}
+
+.form-2::placeholder{
+  color: #211E1E;
+  opacity: 1;
+  padding: 10px;
+}
+
+.form__tim::before{
+  position: absolute;
+  content: "";
 }
 
 .form-3 {
