@@ -286,14 +286,21 @@
 }
 
 .list-consoles-li{
-  display: flex;
+  display: inline-flex;
   align-items: center;
+  width: 100%;
+
 }
 
 .span{
+  display: inline-flex;
   font-weight: 400;
   font-size: 22px;
   line-height: 25px;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-20%);
+  margin-left: 5px;
 }
 
 .list-consoles-li__fake{
