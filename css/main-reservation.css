@@ -74,6 +74,26 @@
   text-transform: uppercase;
 }
 
+.main-reservation-hall-selection-buttons-list__button:hover{
+  background: #EADEED;
+  border: 3px solid #640AA3;
+  border-radius: 8px;
+  color: #000000;
+}
+
+.main-reservation-hall-selection-buttons-list__button:active{
+  background: #6C0287;
+  border: 3px solid #FFFFFF;
+  border-radius: 8px;
+  color: #FFFFFF;
+}
+
+.main-reservation-hall-selection-buttons-list__button:focus{
+  background: #FFFFFF;
+  border: 3px solid #640AA3;
+  border-radius: 8px;
+  color: #000000;
+}
 
 .main-reservation-section {
   display: block;
@@ -173,7 +193,11 @@
   font-size: 18px;
   line-height: 28px;
   z-index: 2;
-  
+}
+
+.form-1:focus{
+  background: #FFFFFF;
+  border: 2px solid #CD06FF;
 }
 
 .form-1::placeholder{
@@ -185,19 +209,16 @@
   background-position: 90%;
 }
 
-.form__date::-webkit-calendar-picker-indicator{
-  opacity: 0;
-}
-
-.form__time::-webkit-calendar-picker-indicator{
-  opacity: 0;
-}
-
 .form__time{
   position: relative;
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
+}
+
+.form__time:focus{
+  background: #FFFFFF;
+  border: 2px solid #CD06FF;
 }
 
 .form-2::placeholder{
@@ -209,6 +230,10 @@
   background-position: 95%;
 }
 
+.form-2:focus{
+  background: #FFFFFF;
+  border: 2px solid #CD06FF;
+}
 
 .form-3 {
   width: 280px;
@@ -218,6 +243,11 @@
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
+}
+
+.form-3:focus{
+  background: #FFFFFF;
+  border: 2px solid #CD06FF;
 }
 
 .form-2 {
@@ -234,6 +264,11 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
+}
+
+.form-4:focus{
+  background: #FFFFFF;
+  border: 2px solid #CD06FF;
 }
 
 .main-reservation-controls {
@@ -325,6 +360,10 @@
   background-color:blueviolet;
   opacity: 0;
   transition: .2s;
+}
+
+.list-consoles-li__input:focus{
+  background-image: url("/img/main-reservation/Ellipse\ 4.png");
 }
 
 .list-consoles-li__input:checked + .list-consoles-li__fake::before{
