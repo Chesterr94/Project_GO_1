@@ -1,4 +1,11 @@
+.main-halls {
+  display: block;
+  width: 1180px;
+  margin: 0 auto;
+}
+
 .main-halls__title-h2 {
+  width: 100%;
   font-weight: 700;
   font-size: 40px;
   line-height: 50px;
@@ -6,11 +13,6 @@
   text-transform: uppercase;
   padding-bottom: 60px;
   flex-basis: 100%;
-}
-
-.main-halls {
-  display: flex;
-
 }
 
 .main-halls__con{

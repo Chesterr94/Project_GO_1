@@ -1,6 +1,5 @@
 .main-reviews {
-  display:flex;
-  flex-wrap: wrap;|
+  display:block;
 }
 
 .main-reviews__title-h2 {
