@@ -79,6 +79,7 @@
   border: 3px solid #640AA3;
   border-radius: 8px;
   color: #000000;
+  outline: none;
 }
 
 .main-reservation-hall-selection-buttons-list__button:active{
@@ -86,6 +87,7 @@
   border: 3px solid #FFFFFF;
   border-radius: 8px;
   color: #FFFFFF;
+  outline: none;
 }
 
 .main-reservation-hall-selection-buttons-list__button:focus{
@@ -93,6 +95,7 @@
   border: 3px solid #640AA3;
   border-radius: 8px;
   color: #000000;
+  outline: none;
 }
 
 .main-reservation-section {
@@ -198,6 +201,7 @@
 .form-1:focus{
   background: #FFFFFF;
   border: 2px solid #CD06FF;
+  outline: none;
 }
 
 .form-1::placeholder{
@@ -233,6 +237,7 @@
 .form-2:focus{
   background: #FFFFFF;
   border: 2px solid #CD06FF;
+  outline: none;
 }
 
 .form-3 {
@@ -248,6 +253,7 @@
 .form-3:focus{
   background: #FFFFFF;
   border: 2px solid #CD06FF;
+  outline: none;
 }
 
 .form-2 {
@@ -269,6 +275,7 @@
 .form-4:focus{
   background: #FFFFFF;
   border: 2px solid #CD06FF;
+  outline: none;
 }
 
 .main-reservation-controls {
@@ -289,6 +296,22 @@
   border-color: #FFFFFF
 }
 
+.main-reservation-controls__button:hover{
+  color: #6C0287;
+  background: #EADEED;
+  border: 3px solid #6C0287;
+}
+
+.main-reservation-controls__button:active{
+  color: #6C0287;
+  background: #EADEED;
+}
+
+.main-reservation-controls__button:focus{
+  color: #6C0287;
+  background: #FFFFFF;
+  border: 3px solid #6C0287;
+}
 
 .title-h4 {
   font-style: normal;
@@ -342,9 +365,9 @@
   display: inline-block;
   width: 28px;
   height: 28px;
-  border-radius: 50%;
   background-color: #ffffff;
   position: relative;
+  border-radius: 50%;
 }
 
 .list-consoles-li__fake::before{
@@ -356,17 +379,34 @@
   transform: translate(-50%,-50%);
   width: 14px;
   height: 14px;
-  border-radius: 50%;
   background-color:blueviolet;
   opacity: 0;
+  border-radius: 50%;
   transition: .2s;
 }
 
-.list-consoles-li__input:focus{
-  background-image: url("/img/main-reservation/Ellipse\ 4.png");
-}
 
 .list-consoles-li__input:checked + .list-consoles-li__fake::before{
+  opacity: 1;
+}
+
+
+.list-consoles-li__fake::after{
+  content: "";
+  top: 25%;
+  left: 50%;
+  display: block;
+  position: absolute;
+  background-color: transparent;
+  transform: translate(-50%,-30%);
+  width: 33px;
+  height: 33px; 
+  border: 1px solid #CD06FF;
+  border-radius: 0;
+  opacity: 0;
+}
+
+.list-consoles-li__fake::after + .list-consoles-li__fake:hover{
   opacity: 1;
 }
 
@@ -393,5 +433,24 @@
 }
 
 .li__input:checked + .fake::before{
+  opacity: 1;
+}
+
+.fake::after{
+  content: "";
+  top: 25%;
+  left: 50%;
+  display: block;
+  position: absolute;
+  background-color: transparent;
+  transform: translate(-50%,-30%);
+  width: 33px;
+  height: 33px; 
+  border: 1px solid #CD06FF;
+  border-radius: 0;
+  opacity: 0;
+}
+
+.li__input:hover + .fake::after{
   opacity: 1;
 }

@@ -112,53 +112,16 @@
   padding: 1em;
 }
 
-.footer-contacts-container-block-sns-list__soc-link--pinterest::before {
-  content:"";
-  background-image: url("/img/footer-contacts/pinterest.svg");
-  background-size: contain;
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  padding: 1em;
-}
-
 .footer-contacts-container-block-sns-list__soc-link--vk {
   padding: 1em;
-}
-
-.footer-contacts-container-block-sns-list__soc-link--vk::before {
-  content:"";
-  background-image: url("/img/footer-contacts/vk.svg");
-  background-size: contain;
-  display: inline-block;
-  width: 50px;
-  height: 50px;
 }
 
 .footer-contacts-container-block-sns-list__soc-link--stumbl {
   padding: 1em;
 }
 
-.footer-contacts-container-block-sns-list__soc-link--stumbl::before {
-  content:"";
-  background-image: url("/img/footer-contacts/stumbl.svg");
-  background-size: contain;
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-}
-
 .footer-contacts-container-block-sns-list__soc-link--telegram {
   padding: 1em;
-}
-
-.footer-contacts-container-block-sns-list__soc-link--telegram::before {
-  content:"";
-  background-image: url("/img/footer-contacts/telegram.svg");
-  background-size: contain;
-  display: inline-block;
-  width: 50px;
-  height: 50px;
 }
 
 .footer-contacts-last{
@@ -178,5 +141,17 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
+}
+
+.li-sns:hover{
+  color: #EADEED;
+}
+
+.li-sns:active{
+  color: #CD06FF;
+}
+
+.li-sns:focus{
+  color: #EADEED;
 }
 
