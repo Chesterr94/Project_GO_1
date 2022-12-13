@@ -143,6 +143,14 @@
   line-height: 16px;
 }
 
+.li-sns{
+  display: block;
+  width: 50px;
+  height: 50px;
+  outline: 1px solid transparent;
+  outline-offset: 3px;
+}
+
 .li-sns:hover{
   color: #EADEED;
 }
@@ -153,5 +161,6 @@
 
 .li-sns:focus{
   color: #EADEED;
+  outline-color: #CD06FF;
 }
 
