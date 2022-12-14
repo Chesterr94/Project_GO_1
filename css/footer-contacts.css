@@ -105,23 +105,28 @@
 
 .footer-contacts-container-block-sns-list {
   display: flex;
+  width: 280px;
   padding-top: 1em;
-  }
-
-.footer-contacts-container-block-sns-list__soc-link--pinterest {
-  padding: 1em;
+  justify-content: space-between;
 }
 
-.footer-contacts-container-block-sns-list__soc-link--vk {
-  padding: 1em;
+.svg{
+  color: white;
+  outline: 1px solid transparent;
+  outline-offset: 3px;
 }
 
-.footer-contacts-container-block-sns-list__soc-link--stumbl {
-  padding: 1em;
+.svg:hover{
+  color: #EADEED;
 }
 
-.footer-contacts-container-block-sns-list__soc-link--telegram {
-  padding: 1em;
+.svg:active{
+  color: #CD06FF;
+}
+
+.svg:focus{
+  color: #CD06FF;
+  outline-color: #CD06FF;
 }
 
 .footer-contacts-last{
