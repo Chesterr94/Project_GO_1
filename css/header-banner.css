@@ -111,33 +111,35 @@
 .header-banner-down{
   padding-bottom: 190px;
   justify-content: center;
-  z-index: 1;
   padding-left: 155px;
   padding-top: 40px;
+  z-index: 1;
 }
 
 .header-banner-down__down{
-  background: none;
-  border: none;
   width: 97px;
   height: 97px;
-  background-image: url("/img/header-nav/down.svg");
-  background-repeat: no-repeat;
+  color: white;
+
 }
 
 .header-banner-down__down:focus{
-  background-image: url("/img/header-banner/down-focus.png");
-  background-repeat: no-repeat;
+  color: white;
+  background-color: transparent;
+  outline: 1px solid #CD06FF; 
+  outline-offset: 3px;
 }
 
 .header-banner-down__down:active{
-  background-image: url("/img/header-banner/down-active.png");
-  background-repeat: no-repeat;
+  color: white;
+  background-color: #CD06FF;
+  border-radius: 50%;
 }
 
 .header-banner-down__down:hover{
-  background-image: url("/img/header-banner/down-hover.png");
-  background-repeat: no-repeat;
+  color: #6C0287;
+  background-color: white;
+  border-radius: 50%;
 }
 
 .header-nav-button__button:focus{
