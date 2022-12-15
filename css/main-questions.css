@@ -53,6 +53,32 @@
   stroke: #6C0287;
   background-color: white;
   border-radius: 50%;
+  stroke-width: 0.3px;
 }
 
+.main-questions-container__svg-white:active{
+  fill: transparent;
+  stroke: #6C0287;
+  stroke-width: 0.3px;
+}
 
+.main-questions-container__svg-white:active .color-1{
+  opacity: 0;
+}
+
+.main-questions-container__svg:hover {
+  stroke: #FFFFFF;
+  background-color: #6C0287;
+  border-radius: 50%;
+  stroke-width: 0.3px;
+}
+
+.main-questions-container__svg:active{
+  fill: transparent;
+  stroke: #FFFFFF;
+  stroke-width: 0.3px;
+}
+
+.main-questions-container__svg:active .color-1{
+  opacity: 0;
+}
