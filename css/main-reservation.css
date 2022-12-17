@@ -72,6 +72,7 @@
   line-height: 40px;
   text-align: center;
   text-transform: uppercase;
+  transition: background 0.5s, border 0.2s, color 0.5s;
 }
 
 .main-reservation-hall-selection-buttons-list__button:hover{
@@ -196,6 +197,7 @@
   font-size: 18px;
   line-height: 28px;
   z-index: 2;
+  transition: background 0.5s, border 0.2s;
 }
 
 .form-1:focus{
@@ -218,11 +220,38 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
+  transition: background 0.5s, border 0.2s;
 }
 
 .form__time:focus{
   background: #FFFFFF;
   border: 2px solid #CD06FF;
+}
+
+.form-3 {
+  width: 280px;
+  height: 52px;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  transition: color 0.5s, background 0.5s;
+}
+
+.form-3:focus{
+  background: #FFFFFF;
+  border: 2px solid #CD06FF;
+  outline: none;
+}
+
+.form-2 {
+  width: 300px;
+  height: 52px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  transition: color 0.5s, background 0.5s;
 }
 
 .form-2::placeholder{
@@ -240,36 +269,13 @@
   outline: none;
 }
 
-.form-3 {
-  width: 280px;
-  height: 52px;
-  font-family: 'Arial';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
-}
-
-.form-3:focus{
-  background: #FFFFFF;
-  border: 2px solid #CD06FF;
-  outline: none;
-}
-
-.form-2 {
-  width: 300px;
-  height: 52px;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 28px;
-}
-
 .form-4 {
   width: 300px;
   height: 52px;
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
+  transition: color 0.5s, background 0.5s;
 }
 
 .form-4:focus{
@@ -293,7 +299,9 @@
   line-height: 28px;
   text-transform: uppercase;
   color: #6C0287;
-  border-color: #FFFFFF
+  border-color: #FFFFFF;  
+  transition: color 0.5s, background 0.5s, border 0.2s;
+
 }
 
 .main-reservation-controls__button:hover{
@@ -404,6 +412,7 @@
   border: 1px solid #CD06FF;
   border-radius: 0;
   opacity: 0;
+  transition: 0.5s ;
 }
 
 .list-consoles-li__input:hover + .list-consoles-li__fake::after{
@@ -449,8 +458,8 @@
   border: 1px solid #CD06FF;
   border-radius: 0;
   opacity: 0;
+  transition: 0.5s 
 }
 
 .li__input:hover + .fake::after{
   opacity: 1;
-}
