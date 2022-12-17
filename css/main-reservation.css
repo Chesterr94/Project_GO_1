@@ -406,7 +406,7 @@
   opacity: 0;
 }
 
-.list-consoles-li__fake::after + .list-consoles-li__fake:hover{
+.list-consoles-li__input:hover + .list-consoles-li__fake::after{
   opacity: 1;
 }
 
