@@ -53,8 +53,9 @@
 }
 
 .main-questions-container__svg-white:hover {
-  fill: white;
-  color: #6C0287;
+  stroke: #6C0287;
+  background-color: white;
+  border-radius: 50%;
   stroke-width: 0.3px;
 }
 

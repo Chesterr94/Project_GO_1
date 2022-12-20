@@ -24,11 +24,23 @@
   gap: 40px 20px;
   margin: 0 auto;
   justify-content: center;
+
+}
+
+.table__list{
+  display: flex;
+  perspective: 600px;
 }
 
 .table__block{
   position: relative;
   width: 380px;
+  transition:transform 0.4s;
+  
+}
+
+.table__block:hover{
+  transform: translateZ(50px);
 }
 
 .table__text{

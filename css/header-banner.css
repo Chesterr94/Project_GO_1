@@ -89,6 +89,7 @@
   text-transform: uppercase;
   color: #FFFFFF;
   border-color: #6C0287;
+  transition: background 0.5s, border 0.5s, color 0.5s;
 }
 
 .header-baner-button__button:focus{
@@ -120,7 +121,7 @@
   width: 97px;
   height: 97px;
   color: white;
-
+  transition: background 0.5s, border 0.5s, color 0.5s, outline 0.3s;
 }
 
 .header-banner-down__down:focus{
@@ -142,15 +143,13 @@
   border-radius: 50%;
 }
 
+.header-nav-button__button{
+  transition: background 0.5s, border 0.5s, color 0.5s;
+}
+
 .header-nav-button__button:focus{
   background: #6C0287;
   border-radius: 10px;
-  font-family: 'Arial';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 22px;
-  line-height: 30px;
-  text-transform: uppercase;
   color: #FFFFFF;
 }
 
@@ -158,12 +157,6 @@
   background: #640AA3;
   border: 1px solid #000000;
   border-radius: 10px;
-  font-family: 'Arial';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 22px;
-  line-height: 30px;
-  text-transform: uppercase;
   color: #FFFFFF;
 }
 
