@@ -19,15 +19,41 @@
 
 .main-reviews-list-li-figure{
   display: flex;
-  width: 280px;
   flex-wrap: wrap;
+  width: 280px;
+  height: 319px;
+  text-align: center;
+  align-self:flex-end;
 }
 
-.main-reviews-list-li-figure-img{
+.main-reviews-list-li-figure-div-img-1{
+  display: block;
   width: 280px;
+  height: 280px;
   border-radius: 50%;
   padding-bottom: 11px;
+  background-image:radial-gradient(50% 50% at 50% 50%, rgba(196, 196, 196, 0) 0%, rgba(108, 2, 135, 0.5) 100%), url("/img/main-reviews/rev1.jpeg");
+  background-size: 100%;
 }
+
+.main-reviews-list-li-figure-div-img-2{
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  padding-bottom: 11px;
+  background-image:radial-gradient(50% 50% at 50% 50%, rgba(196, 196, 196, 0) 0%, rgba(108, 2, 135, 0.5) 100%), url("/img/main-reviews/rev2.jpeg");
+  background-size: 100%;
+}
+
+.main-reviews-list-li-figure-div-img-3{
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  padding-bottom: 11px;
+  background-image:radial-gradient(50% 50% at 50% 50%, rgba(196, 196, 196, 0) 0%, rgba(108, 2, 135, 0.5) 100%), url("/img/main-reviews/rev3.jpeg");
+  background-size: 100%;
+}
+
 
 .main-reviews-list-li-figure-text{
   width: 680px;
@@ -37,8 +63,11 @@
   padding-top: 50px;
 }
 
-.main-reviews-list-li-figure__figcaption{
+.main-reviews-list-li-figure__name{
+  display: flex;
+  width: 280px;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
+  
 }

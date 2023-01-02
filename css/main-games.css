@@ -20,23 +20,30 @@
 
 .main-games__table{
   display: flex;
+  height: 608px;
   flex-wrap: wrap;
   gap: 40px 20px;
-  margin: 0 auto;
-  justify-content: center;
 
 }
 
 .table__list{
   display: flex;
   perspective: 600px;
+  align-self: flex-start;
+}
+
+.table__list:nth-child(2) {
+  align-self:flex-end;
+}
+
+.table__list:nth-child(5) {
+  align-self:flex-end;
 }
 
 .table__block{
   position: relative;
   width: 380px;
   transition:transform 0.4s;
-  
 }
 
 .table__block:hover{

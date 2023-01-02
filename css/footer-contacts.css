@@ -111,22 +111,22 @@
 }
 
 .svg{
-  color: white;
+  color: var(--color-gray, #EADEED);
   outline: 1px solid transparent;
   outline-offset: 3px;
 }
 
 .svg:hover{
-  color: #EADEED;
+  color: var(--color-gray, #EADEED);;
 }
 
 .svg:active{
-  color: #CD06FF;
+  color: var(--color-violet,#CD06FF);
 }
 
 .svg:focus{
-  color: #CD06FF;
-  outline-color: #CD06FF;
+  color: var(--color-violet),#CD06FF;
+  outline-color: var(--color-violet,#CD06FF);
 }
 
 .footer-contacts-last{
@@ -157,15 +157,15 @@
 }
 
 .li-sns:hover{
-  color: #EADEED;
+  color: var(--color-gray, #EADEED);
 }
 
 .li-sns:active{
-  color: #CD06FF;
+  color: var(--color-violet,#CD06FF);
 }
 
 .li-sns:focus{
-  color: #EADEED;
-  outline-color: #CD06FF;
+  color: var(--color-gray, #EADEED);
+  outline-color: var(--color-violet,#CD06FF);
 }
 
