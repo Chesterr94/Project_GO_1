@@ -24,36 +24,33 @@
   height: 319px;
   text-align: center;
   align-self:flex-end;
+  position: relative;
 }
 
-.main-reviews-list-li-figure-div-img-1{
+.main-reviews-list-li-figure-div-img{
+  border-radius: 50%;
+  }
+
+.img-container{
   display: block;
+  position:relative;
   width: 280px;
-  height: 280px;
-  border-radius: 50%;
-  padding-bottom: 11px;
-  background-image:radial-gradient(50% 50% at 50% 50%, rgba(196, 196, 196, 0) 0%, rgba(108, 2, 135, 0.5) 100%), url("/img/main-reviews/rev1.jpeg");
-  background-size: 100%;
+  z-index: 1;
 }
 
-.main-reviews-list-li-figure-div-img-2{
+  .img-container::after{
+  content: "";
+  position: absolute;
   width: 280px;
   height: 280px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(196, 196, 196, 0) 0%, rgba(108, 2, 135, 0.5) 100%);
   border-radius: 50%;
-  padding-bottom: 11px;
-  background-image:radial-gradient(50% 50% at 50% 50%, rgba(196, 196, 196, 0) 0%, rgba(108, 2, 135, 0.5) 100%), url("/img/main-reviews/rev2.jpeg");
-  background-size: 100%;
+  z-index: 2;
 }
-
-.main-reviews-list-li-figure-div-img-3{
-  width: 280px;
-  height: 280px;
-  border-radius: 50%;
-  padding-bottom: 11px;
-  background-image:radial-gradient(50% 50% at 50% 50%, rgba(196, 196, 196, 0) 0%, rgba(108, 2, 135, 0.5) 100%), url("/img/main-reviews/rev3.jpeg");
-  background-size: 100%;
-}
-
 
 .main-reviews-list-li-figure-text{
   width: 680px;
