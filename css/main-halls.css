@@ -1,10 +1,12 @@
 .main-halls {
-  display: block;
-  width: 1180px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1180px;
   margin: 0 auto;
 }
 
-.main-halls__title-h2 {
+.main-halls-title-h2 {
   width: 100%;
   font-weight: 700;
   font-size: 40px;
@@ -15,16 +17,32 @@
   flex-basis: 100%;
 }
 
-.main-halls__con{
-  width: 1180px;
-  display: inline-flex;
-  flex-wrap: wrap;
-  gap: 20px;
+.main-halls-con {
+  display: grid;
+  grid-template: repeat(2, 1fr)/ repeat(2, 1fr);
+  width: 100%;
+  gap: 1.43vw;
   margin: 0 auto;
   padding-bottom: 100px;
 }
 
-.main-halls__figure {
+.hall-80-vibe {
+  grid-area: 1/1/2/2;
+}
+
+.hall-star-wars {
+  grid-area: 1/2/2/3;
+}
+
+.hall-wild-west {
+  grid-area: 2/1/3/2;
+}
+
+.hall-neon-style {
+  grid-area: 2/2/3/3;
+}
+
+.main-halls-figure {
   position: relative;
   color: #FFFFFF;
   font-size: 70px;
@@ -32,12 +50,13 @@
   text-align: center;
   text-transform: uppercase;
   line-height: 80px;
-  background-image: url("../img/Future_design/80_vibe.jpg");
-  background-repeat: no-repeat;
-  width: 580px;
+  width: 100%;
+  height: auto;
+  max-height: 349px;
+  max-width: 580px;
 }
 
-.main-halls__text {
+.main-halls-text {
   position: absolute;
   width: 252px;
   overflow-wrap: normal;

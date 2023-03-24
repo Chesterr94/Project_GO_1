@@ -1,4 +1,6 @@
 .header-banner {
+  width: 100%;
+  max-width: 1400px;
   display: flex;
   position: relative;
   flex-wrap: wrap;
@@ -10,8 +12,8 @@
   width: 675px;
   height: 762px;
   background-image: url("/img/header-banner/banner.jpg");
-  background-size:contain;
-  position:absolute;
+  background-size: contain;
+  position: absolute;
   top: 4em;
   left: 28em;
 }
@@ -20,7 +22,7 @@
   font-size: 150px;
   font-weight: 900;
   line-height: 100%;
-  margin  : 0px;
+  margin: 0px;
   text-align: center;
   letter-spacing: -0.1em;
 }
@@ -34,7 +36,7 @@
   padding-bottom: 30px;
 }
 
-.header-banner-info{
+.header-banner-info {
   display: flex;
   gap: 40px;
   width: 400px;
@@ -42,7 +44,7 @@
   flex-basis: 100%;
 }
 
-.header-banner-info-hall{
+.header-banner-info-hall {
   width: 193px;
   font-weight: 400;
   font-size: 30px;
@@ -51,14 +53,14 @@
   padding-bottom: 150px;
 }
 
-.header-banner-info-hall__text{
+.header-banner-info-hall__text {
   font-weight: 900;
   font-size: 100px;
   line-height: 141px;
-  color: var(--color-violet,#CD06FF);
+  color: var(--color-violet, #CD06FF);
 }
 
-.header-banner-info-devices{
+.header-banner-info-devices {
   width: 161px;
   font-weight: 400;
   font-size: 30px;
@@ -68,15 +70,15 @@
   padding-bottom: 150px;
 }
 
-.header-banner-info-devices__text{
+.header-banner-info-devices__text {
   font-weight: 900;
   font-size: 75px;
   line-height: 106px;
   font-variant: small-caps;
-  color: var(--color-violet,#CD06FF);
+  color: var(--color-violet, #CD06FF);
 }
 
-.header-baner-button__button{
+.header-baner-button__button {
   width: 374px;
   height: 80px;
   left: 130px;
@@ -87,29 +89,29 @@
   font-size: 26px;
   line-height: 30px;
   text-transform: uppercase;
-  color:var(--color-white ,#FFFFFF);
+  color: var(--color-white, #FFFFFF);
   border-color: var(--color-gray-dark, #6C0287);
   transition: background 0.5s, border 0.5s, color 0.5s;
 }
 
-.header-baner-button__button:focus{
+.header-baner-button__button:focus {
   background: var(--color-gray-dark, #6C0287);
   border-radius: 10px;
-  color:var(--color-white ,#FFFFFF);
+  color: var(--color-white, #FFFFFF);
 }
 
-.header-baner-button__button:active{
+.header-baner-button__button:active {
   background: #640AA3;
   border-radius: 10px;
 
 }
 
-.header-baner-button__button:hover{
+.header-baner-button__button:hover {
   background: #840AA3;
   border-radius: 10px;
 }
 
-.header-banner-down{
+.header-banner-down {
   padding-bottom: 190px;
   justify-content: center;
   padding-left: 155px;
@@ -117,52 +119,52 @@
   z-index: 1;
 }
 
-.header-banner-down__down{
+.header-banner-down__down {
   width: 97px;
   height: 97px;
   color: white;
   transition: background 0.5s, border 0.5s, color 0.5s, outline 0.3s;
 }
 
-.header-banner-down__down:focus{
-  color:var(--color-white ,#FFFFFF);
+.header-banner-down__down:focus {
+  color: var(--color-white, #FFFFFF);
   background-color: transparent;
-  outline: 1px solid var(--color-violet,#CD06FF); 
+  outline: 1px solid var(--color-violet, #CD06FF);
   outline-offset: 3px;
 }
 
-.header-banner-down__down:active{
-  color:var(--color-white ,#FFFFFF);
-  background-color: var(--color-violet,#CD06FF);
+.header-banner-down__down:active {
+  color: var(--color-white, #FFFFFF);
+  background-color: var(--color-violet, #CD06FF);
   border-radius: 50%;
 }
 
-.header-banner-down__down:hover{
+.header-banner-down__down:hover {
   color: var(--color-gray-dark, #6C0287);
-  color:var(--color-white ,#FFFFFF);
+  color: var(--color-white, #FFFFFF);
   border-radius: 50%;
 }
 
-.header-nav-button__button{
+.header-nav-button__button {
   transition: background 0.5s, border 0.5s, color 0.5s;
 }
 
-.header-nav-button__button:focus{
+.header-nav-button__button:focus {
   background: var(--color-gray-dark, #6C0287);
   border-radius: 10px;
-  color:var(--color-white ,#FFFFFF);
+  color: var(--color-white, #FFFFFF);
 }
 
-.header-nav-button__button:active{
+.header-nav-button__button:active {
   background: #640AA3;
   border: 1px solid #000000;
   border-radius: 10px;
-  color:var(--color-white ,#FFFFFF);
+  color: var(--color-white, #FFFFFF);
 }
 
-.header-nav-button__button:hover{
+.header-nav-button__button:hover {
   background: var(--color-gray-dark, #6C0287);
   border: 3px solid var(--color-gray-dark, #6C0287);
   border-radius: 10px;
-  color:var(--color-white ,#FFFFFF);
-  }
+  color: var(--color-white, #FFFFFF);
+}
