@@ -454,7 +454,7 @@ iframe {
 
 .container {
   width: 100%;
-  max-width: 1240px;
+  max-width: 1180px;
   margin: 0 auto;
 }
 
@@ -490,26 +490,20 @@ fieldset {
 
 @media (max-width: 1200px) {
   .container {
-    width: 100%;
-    padding: 0 5.86vw;
-    margin: 0 auto;
+    max-width: 904px;
   }
 }
 
 @media (max-width: 992px) {
   .container {
-    width: 100%;
-    max-width: 69.25vw;
-    padding: 0;
-    margin: 0 auto;
+    max-width: 688px;
+
   }
 }
 
 @media (max-width: 576px) {
   .container {
-    width: 100%;
-    max-width: 87.50vw;
-    margin: 0 auto;
+    max-width: 480px;
   }
 }
 

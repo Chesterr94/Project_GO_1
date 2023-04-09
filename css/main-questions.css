@@ -1,7 +1,8 @@
 .main-questions {
   display: block;
   margin: 0 auto;
-  width: 1180px;
+  width: 100%;
+  max-width: 1180px;
 }
 
 .main-questions-container {
@@ -12,7 +13,8 @@
 }
 
 .main-questions__title-2 {
-  width: 980px;
+  width: 100%;
+  max-width: 980px;
   font-weight: 700;
   font-size: 40px;
   line-height: 50px;
@@ -20,7 +22,44 @@
   text-align: center;
   padding-bottom: 40px;
   margin: 0 auto;
-  margin-bottom: 16px;
+}
+
+.main-questions-button__white {
+  display: flex;
+  width: 46px;
+  height: 46px;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='46' height='46' viewBox='0 0 46 46' fill='transparent' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M22.8305 14H23.5085V34H22.8305V14Z' fill='%23440F51'/%3e%3cpath d='M13 24.1695V23.4915H33V24.1695H13Z' fill='%23440F51'/%3e%3ccircle cx='23' cy='23' r='22' stroke='%23440F51' stroke-width='2'/%3e%3c/svg%3e ");
+  background-size: cover;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.main-questions-button__white:hover {
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='46' height='46' viewBox='0 0 46 46' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3ccircle cx='23' cy='23' r='22.5' fill='%236C0287' stroke='%236C0287'/%3e%3cpath d='M22.8305 14H23.5085V34H22.8305V14Z' fill='white'/%3e%3cpath d='M13 24.1695V23.4915H33V24.1695H13Z' fill='white'/%3e%3c/svg%3e ");
+}
+
+.main-questions-button__white:active {
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='46' height='46' viewBox='0 0 46 46' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3ccircle cx='23' cy='23' r='22.5' stroke='%236C0287'/%3e%3crect x='13' y='23' width='20' height='1' fill='%236C0287'/%3e%3c/svg%3e ");
+}
+
+.main-questions-button__violet {
+  display: flex;
+  width: 46px;
+  height: 46px;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='46' height='46' viewBox='0 0 46 46' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M22.8306 14H23.5086V34H22.8306V14Z' fill='white'/%3e%3cpath d='M13.0001 24.1695V23.4915H33.0001V24.1695H13.0001Z' fill='white'/%3e%3ccircle cx='23.0001' cy='23' r='22' stroke='white' stroke-width='2'/%3e%3c/svg%3e ");
+  background-size: cover;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.main-questions-button__violet:hover {
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='46' height='46' viewBox='0 0 46 46' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3ccircle cx='23' cy='23' r='22.5' fill='white' stroke='white'/%3e%3cpath d='M22.8305 14H23.5085V34H22.8305V14Z' fill='%236C0287'/%3e%3cpath d='M13 24.1695V23.4915H33V24.1695H13Z' fill='%236C0287'/%3e%3c/svg%3e ");
+}
+
+.main-questions-button__violet:active {
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='46' height='46' viewBox='0 0 46 46' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3crect x='13' y='23' width='20' height='1' fill='white'/%3e%3ccircle cx='23' cy='23' r='22' stroke='white' stroke-width='2'/%3e%3c/svg%3e ");
 }
 
 .main-questions-container-li {
@@ -29,8 +68,10 @@
 }
 
 .main-questions-container-li:nth-child(odd) {
-  background-color: #fff;
+  background-color: #FFFFFF;
   color: #1C1A1A;
+  width: 100%;
+  height: 87px;
   font-weight: 700;
   font-size: 24px;
   padding: 20px 70px;
@@ -41,6 +82,8 @@
 .main-questions-container-li:nth-child(even) {
   background-color: #440F51;
   color: #ffffff;
+  width: 100%;
+  height: 87px;
   font-weight: 700;
   font-size: 24px;
   padding: 20px 70px;
@@ -52,40 +95,162 @@
   transition: stroke 0.5s, background 0.5s, border 0.5s;
 }
 
-.main-questions-container__svg-white:hover {
-  stroke: #6C0287;
-  background-color: white;
-  border-radius: 50%;
-  stroke-width: 0.3px;
-}
-
-.main-questions-container__svg-white:active {
-  fill: transparent;
-  stroke: #6C0287;
-  stroke-width: 0.3px;
-}
-
-.main-questions-container__svg-white:active .color-1 {
-  opacity: 0;
-}
 
 .main-questions-container__svg {
   transition: stroke 0.5s, background 0.5s, border 0.2s;
 }
 
-.main-questions-container__svg:hover {
-  stroke: #FFFFFF;
-  background-color: #6C0287;
-  border-radius: 50%;
-  stroke-width: 0.3px;
+
+@media (max-width: 1200px) {
+  .main-questions {
+    max-width: 904px;
+  }
+
+  .main-questions-container {
+    max-width: 904px;
+    padding-bottom: 70px;
+  }
+
+  .main-questions__title-2 {
+    font-size: 30px;
+    line-height: 40px;
+    padding-bottom: 26px;
+  }
+
+  .main-questions-container__text {
+    font-size: 20px;
+    line-height: 24px;
+    padding-left: 5px;
+  }
+
+  .main-questions-container-li:nth-child(odd) {
+    background-color: #fff;
+    color: #1C1A1A;
+    height: 70px;
+    padding: 23px 20px;
+    margin-bottom: 16px;
+  }
+
+  .main-questions-container-li:nth-child(even) {
+    background-color: #fff;
+    color: #1C1A1A;
+    height: 70px;
+    padding: 23px 20px;
+    margin-bottom: 16px;
+  }
+
+  .main-questions-container-li:last-child {
+    display: none;
+    padding: 0px;
+    margin-bottom: 0px;
+  }
+
+  .main-questions-button__white {
+    width: 46px;
+    height: 46px;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='46' height='46' viewBox='0 0 46 46' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M22.8305 14H23.5085V34H22.8305V14Z' fill='%236C0287'/%3e%3cpath d='M13 24.1695V23.4915H33V24.1695H13Z' fill='%236C0287'/%3e%3ccircle cx='23' cy='23' r='22.5' stroke='%236C0287'/%3e%3c/svg%3e ");
+  }
+
+  .main-questions-button__violet {
+    width: 46px;
+    height: 46px;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='46' height='46' viewBox='0 0 46 46' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M22.8305 14H23.5085V34H22.8305V14Z' fill='%236C0287'/%3e%3cpath d='M13 24.1695V23.4915H33V24.1695H13Z' fill='%236C0287'/%3e%3ccircle cx='23' cy='23' r='22.5' stroke='%236C0287'/%3e%3c/svg%3e ");
+  }
+
+  .main-questions-button__violet:hover {
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='46' height='46' viewBox='0 0 46 46' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3ccircle cx='23' cy='23' r='22.5' fill='%236C0287' stroke='%236C0287'/%3e%3cpath d='M22.8305 14H23.5085V34H22.8305V14Z' fill='white'/%3e%3cpath d='M13 24.1695V23.4915H33V24.1695H13Z' fill='white'/%3e%3c/svg%3e ");
+  }
+
+  .main-questions-button__violet:active {
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='46' height='46' viewBox='0 0 46 46' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3ccircle cx='23' cy='23' r='22.5' stroke='%236C0287'/%3e%3crect x='13' y='23' width='20' height='1' fill='%236C0287'/%3e%3c/svg%3e ");
+  }
+
 }
 
-.main-questions-container__svg:active {
-  fill: transparent;
-  stroke: #FFFFFF;
-  stroke-width: 0.3px;
+@media (max-width: 992px) {
+  .main-questions {
+    max-width: 688px;
+  }
+
+  .main-questions-container {
+    max-width: 688px;
+    padding-bottom: 70px;
+  }
+
+  .main-questions__title-2 {
+    font-size: 24px;
+    line-height: 26px;
+    padding-bottom: 30px;
+  }
+
+  .main-questions-container__text {
+    font-size: 18px;
+    line-height: 24px;
+    padding-left: 0px;
+  }
+
+  .main-questions-container-li:nth-child(odd) {
+    padding: 23px 54px;
+  }
+
+  .main-questions-container-li:nth-child(even) {
+    padding: 23px 54px;
+  }
+
+  .main-questions-button__violet {
+    padding-right: 11px;
+  }
+
+  .main-questions-button__white {
+    padding-right: 11px;
+  }
 }
 
-.main-questions-container__svg:active .color-1 {
-  opacity: 0;
+@media (max-width: 576px) {
+  .main-questions {
+    max-width: 280px;
+  }
+
+  .main-questions-container {
+    max-width: 280px;
+    padding-bottom: 30px;
+  }
+
+  .main-questions__title-2 {
+    font-size: 14px;
+    line-height: 18px;
+    padding-bottom: 15px;
+  }
+
+  .main-questions-container__text {
+    font-size: 12px;
+    line-height: 16px;
+    padding-left: 0px;
+    width: 100%;
+    max-width: 227px;
+  }
+
+  .main-questions-container-li:nth-child(odd) {
+    padding: 7px 10px;
+    height: 46px;
+  }
+
+  .main-questions-container-li:nth-child(even) {
+    padding: 7px 10px;
+    height: 46px;
+  }
+
+  .main-questions-button__violet {
+    margin-right: 3px;
+    width: 30px;
+    height: 30px;
+  }
+
+  .main-questions-button__white {
+    margin-right: 3px;
+    width: 30px;
+    height: 30px;
+  }
+
+
 }

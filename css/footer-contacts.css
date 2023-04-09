@@ -7,7 +7,6 @@
   display: block;
   width: 1180px;
   margin: 0 auto;
-
 }
 
 .footer-contacts__title-h2 {
@@ -16,7 +15,7 @@
   line-height: 50px;
   text-transform: uppercase;
   text-align: center;
-  padding-bottom: 54px;
+  padding-bottom: 40px;
 }
 
 .footer-contacts-container {
@@ -170,4 +169,29 @@
 .li-sns:focus {
   color: var(--color-gray, #EADEED);
   outline-color: var(--color-violet, #CD06FF);
+}
+
+@media (max-width: 1200px) {
+  .footer-contacts {
+    width: 904px;
+  }
+
+  .footer-contacts__title-h2 {
+    font-size: 30px;
+    line-height: 40px;
+    padding-bottom: 26px;
+  }
+
+  .footer-contacts-container {
+    gap: 58px;
+    padding-bottom: 92px;
+  }
+
+  .footer-contacts-container-block {
+    width: 400px;
+  }
+
+
+
+
 }

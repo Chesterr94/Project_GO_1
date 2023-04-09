@@ -1,8 +1,9 @@
 .header-banner {
-  width: 100%;
-  max-width: 1400px;
   display: flex;
   position: relative;
+  width: 100%;
+  max-width: 1180px;
+  padding: 26.5px 0px 100px;
   flex-wrap: wrap;
   margin: 0 auto;
 }
@@ -14,8 +15,9 @@
   background-image: url("/img/header-banner/banner.jpg");
   background-size: contain;
   position: absolute;
-  top: 4em;
-  left: 28em;
+  background-repeat: no-repeat;
+  top: 5em;
+  right: 0em;
 }
 
 .header-banner__title-h1 {
@@ -34,12 +36,13 @@
   padding-left: 100px;
   flex-basis: 100%;
   padding-bottom: 30px;
+  line-height: 50px;
 }
 
 .header-banner-info {
   display: flex;
   gap: 40px;
-  width: 400px;
+  width: 100%;
   flex-wrap: wrap;
   flex-basis: 100%;
 }
@@ -67,7 +70,6 @@
   line-height: 34px;
   text-align: center;
   padding-top: 34px;
-  padding-bottom: 150px;
 }
 
 .header-banner-info-devices__text {
@@ -81,8 +83,6 @@
 .header-baner-button__button {
   width: 374px;
   height: 80px;
-  left: 130px;
-  top: 735px;
   background: var(--color-gray-dark, #6C0287);
   border-radius: 10px;
   font-weight: 700;
@@ -112,7 +112,6 @@
 }
 
 .header-banner-down {
-  padding-bottom: 190px;
   justify-content: center;
   padding-left: 155px;
   padding-top: 40px;
@@ -145,26 +144,216 @@
   border-radius: 50%;
 }
 
-.header-nav-button__button {
-  transition: background 0.5s, border 0.5s, color 0.5s;
+@media (max-width: 1200px) {
+  .header-banner {
+    max-width: 904px;
+    padding: 0 0 83px;
+  }
+
+  .header-banner::after {
+    width: 453px;
+    height: 520px;
+    top: 3em;
+    right: 0em;
+  }
+
+
+  .header-banner__title-h1 {
+    font-weight: 900;
+    font-size: 120px;
+    line-height: 100%;
+    letter-spacing: -0.1em;
+  }
+
+  .header-banner__text {
+    padding-left: 100px;
+    font-size: 22px;
+    line-height: 30px;
+    padding-bottom: 25px;
+  }
+
+  .header-banner-info {
+    padding: 25px 0 0;
+    gap: 2.67vw;
+  }
+
+  .header-banner-info-hall {
+    width: 168px;
+    font-size: 26px;
+    padding-bottom: 40px;
+  }
+
+  .header-banner-info-hall__text {
+    font-size: 80px;
+    line-height: 113px;
+  }
+
+  .header-banner-info-devices {
+    width: 140px;
+    font-size: 26px;
+    line-height: 30px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+  }
+
+  .header-banner-info-devices__text {
+    font-size: 60px;
+    line-height: 105px;
+  }
+
+  .header-baner-button__button {
+    width: 296px;
+    height: 64px;
+    font-size: 22px;
+    margin-left: 39px;
+  }
+
+  .header-banner-down {
+    justify-content: center;
+    padding-left: 72px;
+    padding-top: 40px;
+    z-index: 1;
+  }
+
+  .header-banner-down__down {
+    width: 67px;
+    height: 67px;
+  }
 }
 
-.header-nav-button__button:focus {
-  background: var(--color-gray-dark, #6C0287);
-  border-radius: 10px;
-  color: var(--color-white, #FFFFFF);
+@media (max-width: 992px) {
+  .header-banner {
+    max-width: 688px;
+    padding: 0 0 80px;
+  }
+
+  .header-banner::after {
+    width: 409px;
+    height: 479px;
+    top: 2em;
+    left: 15em;
+  }
+
+  .header-banner__title-h1 {
+    font-weight: 900;
+    font-size: 86px;
+  }
+
+  .header-banner__text {
+    padding-left: 100px;
+    font-size: 18px;
+    line-height: 24px;
+    padding-bottom: 25px;
+  }
+
+  .header-banner-info {
+    padding: 25px 0 0;
+    gap: 2.67vw;
+  }
+
+  .header-banner-info-hall {
+    width: 103px;
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .header-banner-info-hall__text {
+    font-size: 50px;
+    line-height: 71px;
+  }
+
+  .header-banner-info-devices {
+    font-size: 16px;
+    line-height: 18px;
+    padding-top: 5px;
+    padding-bottom: 50px;
+  }
+
+  .header-banner-info-devices__text {
+
+    width: 89px;
+    font-size: 40px;
+    line-height: 64px;
+  }
+
+  .header-baner-button__button {
+    width: 214px;
+    height: 46px;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 0;
+    border-radius: 4px;
+    margin: 50px 0 89px;
+  }
+
+  .header-banner-down {
+    display: none;
+  }
 }
 
-.header-nav-button__button:active {
-  background: #640AA3;
-  border: 1px solid #000000;
-  border-radius: 10px;
-  color: var(--color-white, #FFFFFF);
-}
+@media (max-width: 576px) {
+  .header-banner {
+    max-width: 280px;
+    padding: 0 0 46px;
+  }
 
-.header-nav-button__button:hover {
-  background: var(--color-gray-dark, #6C0287);
-  border: 3px solid var(--color-gray-dark, #6C0287);
-  border-radius: 10px;
-  color: var(--color-white, #FFFFFF);
+  .header-banner::after {
+    width: 161px;
+    height: 179px;
+    padding: 17px 60px 0px;
+    top: 2.8em;
+    left: 20.44vw;
+    margin: 0 auto;
+  }
+
+  .header-banner__title-h1 {
+    font-size: 35px;
+    line-height: 100%;
+  }
+
+  .header-banner__text {
+    padding-left: 2.50vw;
+    font-size: 10px;
+    line-height: 14px;
+    padding-bottom: 5px;
+  }
+
+  .header-banner-info {
+    padding: 5px 0 0;
+    gap: 20px;
+  }
+
+  .header-banner-info-hall {
+    width: 65px;
+    font-size: 10px;
+    line-height: 11px;
+
+  }
+
+  .header-banner-info-hall__text {
+    font-size: 26px;
+    line-height: 37px;
+  }
+
+  .header-banner-info-devices {
+    width: 54px;
+    font-size: 10px;
+    line-height: 11px;
+    padding-top: 4px;
+    padding-bottom: 15px;
+  }
+
+  .header-banner-info-devices__text {
+    font-size: 22px;
+    line-height: 31px;
+  }
+
+  .header-baner-button__button {
+    width: 117px;
+    height: 27px;
+    font-size: 10px;
+    line-height: 12px;
+    margin: 15px 0 0px;
+  }
+
 }

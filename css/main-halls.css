@@ -4,6 +4,7 @@
   width: 100%;
   max-width: 1180px;
   margin: 0 auto;
+  padding: 0;
 }
 
 .main-halls-title-h2 {
@@ -13,13 +14,14 @@
   line-height: 50px;
   text-align: center;
   text-transform: uppercase;
-  padding-bottom: 60px;
+  padding-bottom: 40px;
   flex-basis: 100%;
 }
 
 .main-halls-con {
   display: grid;
-  grid-template: repeat(2, 1fr)/ repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   width: 100%;
   gap: 1.43vw;
   margin: 0 auto;
@@ -67,4 +69,98 @@
   line-height: 80px;
   text-align: center;
   text-transform: uppercase;
+}
+
+@media (max-width: 1200px) {
+  .main-halls {
+    max-width: 904px;
+  }
+
+  .main-halls-title-h2 {
+    font-size: 30px;
+    line-height: 40px;
+    padding-bottom: 37px;
+  }
+
+  .main-halls-con {
+    gap: 1.43vw;
+    padding-bottom: 71px;
+  }
+
+
+  .main-halls-text {
+    width: 252px;
+    left: 95px;
+    top: 73px;
+    font-size: 50px;
+    line-height: 60px;
+  }
+}
+
+@media (max-width: 992px) {
+  .main-halls {
+    max-width: 688px;
+  }
+
+  .main-halls-title-h2 {
+    font-size: 24px;
+    line-height: 36px;
+    padding-bottom: 35px;
+  }
+
+  .main-halls-con {
+    gap: 1.43vw;
+    padding-bottom: 62px;
+  }
+
+  .main-halls-text {
+    width: 129px;
+    left: 33%;
+    top: 50px;
+    font-size: 40px;
+    line-height: 50px;
+  }
+}
+
+@media (max-width: 576px) {
+  .main-halls {
+    max-width: 280px;
+  }
+
+  .main-halls-title-h2 {
+    font-size: 14px;
+    line-height: 18px;
+    padding-bottom: 15px;
+  }
+
+  .main-halls-con {
+    gap: 1.43vw;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    padding-bottom: 30px;
+  }
+
+  .hall-80-vibe {
+    grid-area: 1/1/2/2;
+  }
+
+  .hall-star-wars {
+    grid-area: 2/1/3/2;
+  }
+
+  .hall-wild-west {
+    grid-area: 3/1/4/2;
+  }
+
+  .hall-neon-style {
+    grid-area: 4/1/5/2;
+  }
+
+  .main-halls-text {
+    width: 84px;
+    left: 100px;
+    top: 50px;
+    font-size: 26px;
+    line-height: 34px;
+  }
 }
