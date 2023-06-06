@@ -504,7 +504,7 @@
 @media (max-width: 1200px) {
   .main-reservation {
     max-width: 903px;
-    padding-top: 30px;
+    padding-top: 0px;
     padding-bottom: 30px;
   }
 

@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="css/index.css">
 </head>
 
-<body><!--
+<body>
   <header class="header">
     <div class="container">
       <div class="header-nav">
@@ -31,9 +31,9 @@
         </div>
       </div>
       <div class="header-nav__small">
-        <button class="header-nav-btn">
-          <div class="nav-btn"></div>
-        </button>
+        <div class="header-nav-btn">
+          <button class="nav-btn"></button>
+        </div>
         <div class="header-logo">
           <div class="header-logo__go"></div>
         </div>
@@ -55,7 +55,7 @@
           <button class="header-baner-button__button">забронировать</button>
         </div>
         <div class="header-banner-down">
-          <a href="#main-games">
+          <a class="header-banner-down__link" href="#main-games">
             <svg class="header-banner-down__down" width="97" height="97" viewbox="0 0 97 97" fill="none"
               xmlns="http://www.w3.org/2000/svg">
               <circle cx="48.5" cy="48.5" r="48" stroke="white" />
@@ -169,26 +169,34 @@
     <section class="main-halls" id="halls">
       <h2 class="main-halls-title-h2 title-h2">Наши залы</h2>
       <div class="main-halls-con">
-        <figure class="main-halls-figure hall-80-vibe">
-          <img class="main-halls-img img" src="/img/main-halls/80_vibe.jpg"
-            alt="Рисунок аудиокасет на полу кросовок и магнитофона" width="1180" height="710">
-          <figcaption class="main-halls-text">80`S<br>VIBE</figcaption>
-        </figure>
-        <figure class="main-halls-figure hall-star-wars">
-          <img class="main-halls-img img" src="/img/main-halls/star_wars.jpg"
-            alt="Рисунок зала в стиле кораблия из звездных воин" width="1180" height="710">
-          <figcaption class="main-halls-text">STAR WARS</figcaption>
-        </figure>
-        <figure class="main-halls-figure hall-wild-west">
-          <img class="main-halls-img img" src="/img/main-halls/wild_west.jpg"
-            alt="Две девушки стоят посреди зала выполненого в стиле дикого запада" width="1180" height="710">
-          <figcaption class="main-halls-text">WILD WEST</figcaption>
-        </figure>
-        <figure class="main-halls-figure hall-neon-style">
-          <img class="main-halls-img img" src="/img/main-halls/neon_style.jpg"
-            alt="неоновая вывеска сделана в виде рисунка четырех кроссовок" width="1180" height="710">
-          <figcaption class="main-halls-text">NEON STYLE</figcaption>
-        </figure>
+        <a href="/80s_vibe.html" target="_blank">
+          <figure class="main-halls-figure hall-80-vibe">
+            <img class="main-halls-img img" src="/img/main-halls/80_vibe.jpg"
+              alt="Рисунок аудиокасет на полу кросовок и магнитофона" width="1180" height="710">
+            <figcaption class="main-halls-text">80`S<br>VIBES</figcaption>
+          </figure>
+        </a>
+        <a href="/star_wars.html" target="_blank">
+          <figure class="main-halls-figure hall-star-wars">
+            <img class="main-halls-img img" src="/img/main-halls/star_wars.jpg"
+              alt="Рисунок зала в стиле кораблия из звездных воин" width="1180" height="710">
+            <figcaption class="main-halls-text">STAR WARS</figcaption>
+          </figure>
+        </a>
+        <a href="/wild_west.html" target="_blank">
+          <figure class="main-halls-figure hall-wild-west">
+            <img class="main-halls-img img" src="/img/main-halls/wild_west.jpg"
+              alt="Две девушки стоят посреди зала выполненого в стиле дикого запада" width="1180" height="710">
+            <figcaption class="main-halls-text">WILD WEST</figcaption>
+          </figure>
+        </a>
+        <a href="/neon_style.html" target="_blank">
+          <figure class="main-halls-figure hall-neon-style">
+            <img class="main-halls-img img" src="/img/main-halls/neon_style.jpg"
+              alt="неоновая вывеска сделана в виде рисунка четырех кроссовок" width="1180" height="710">
+            <figcaption class="main-halls-text">NEON STYLE</figcaption>
+          </figure>
+        </a>
       </div>
     </section>
     <section class="container-reservation" id="reservation">
@@ -422,7 +430,8 @@
               </div>
               <figcaption class="main-reviews-list-li-figure__name">Билли Херрингтон по прозвищу «Аники»</figcaption>
             </figure>
-            <p class="main-reviews-list-li-figure-text">Отмечали здесь день рождения с компанией друзей, все было очень
+            <p class="main-reviews-list-li-figure-text">Отмечали здесь день рождения с компанией друзей, все было
+              очень
               круто Fisting это просто бомба,
               никогда я еще не был в таком полном погружении, сервис на высоте!</p>
           </li>
@@ -453,31 +462,31 @@
         </ul>
       </div>
     </section>
-  <section class="main-questions">
-    <h2 class="main-questions__title-2">Частые вопросы</h2>
-    <ul class="main-questions-container">
-      <li class="main-questions-container-li">
-        <p class="main-questions-container__text">Можно ли забронировать комнату онлайн?</p>
-        <button class="main-questions-button__white"></button>
-      </li>
-      <li class="main-questions-container-li">
-        <p class="main-questions-container__text">Могут ли мне вернуть деньги за бронь?</p>
-        <button class="main-questions-button__violet"></button>
-      </li>
-      <li class="main-questions-container-li">
-        <p class="main-questions-container__text">Какая комната самая популярная?</p>
-        <button class="main-questions-button__white"></button>
-      </li>
-      <li class="main-questions-container-li">
-        <p class="main-questions-container__text">Как получить вип карту?</p>
-        <button class="main-questions-button__violet"></button>
-      </li>
-      <li class="main-questions-container-li">
-        <p class="main-questions-container__text">Какая комната самая DEEP ♂ DARK ♂?</p>
-        <button class="main-questions-button__white"></button>
-      </li>
-    </ul>
-  </section>-->
+    <section class="main-questions">
+      <h2 class="main-questions__title-2">Частые вопросы</h2>
+      <ul class="main-questions-container">
+        <li class="main-questions-container-li">
+          <p class="main-questions-container__text">Можно ли забронировать комнату онлайн?</p>
+          <button class="main-questions-button__white"></button>
+        </li>
+        <li class="main-questions-container-li">
+          <p class="main-questions-container__text">Могут ли мне вернуть деньги за бронь?</p>
+          <button class="main-questions-button__violet"></button>
+        </li>
+        <li class="main-questions-container-li">
+          <p class="main-questions-container__text">Какая комната самая популярная?</p>
+          <button class="main-questions-button__white"></button>
+        </li>
+        <li class="main-questions-container-li">
+          <p class="main-questions-container__text">Как получить вип карту?</p>
+          <button class="main-questions-button__violet"></button>
+        </li>
+        <li class="main-questions-container-li">
+          <p class="main-questions-container__text">Какая комната самая DEEP ♂ DARK ♂?</p>
+          <button class="main-questions-button__white"></button>
+        </li>
+      </ul>
+    </section>
   </main>
   <footer class="footer">
     <section class="footer-contacts">
@@ -485,12 +494,14 @@
       <div class="footer-contacts-container">
         <div class="footer-contacts-container-block">
           <ul class="footer-contacts-container-block-list">
-            <li class="footer-contacts-container-block-list__text-city">г. Москва.<br> ул. Аквамарина 16</li>
-            <li class="footer-contacts-container-block-list__text-tel"><a
-                class="footer-contacts-container-block__link link" href="tel:89309502893">8 (950) 930-28-93</a></li>
-            <li class="footer-contacts-container-block-list__text-mail"><a
-                class="footer-contacts-container-block__link link"
-                href="mailto:gameover@gmail.com">GameOver@gmail.com</a></li>
+            <li class="footer-contacts-container-block-list__text-city">г. Москва<br> ул. Усачёва, 29 к3</li>
+            <li class="footer-contacts-container-block-list__text-tel">
+              <a class="footer-contacts-container-block__link link" href="tel:89309502893">8 (950) 930-28-93</a>
+            </li>
+            <li class="footer-contacts-container-block-list__text-mail">
+              <a class="footer-contacts-container-block__link link"
+                href="mailto:gameover@gmail.com">GameOver@gmail.com</a>
+            </li>
           </ul>
           <ul class="footer-contacts-container-block-sns-list">
             <li class="footer-contacts-container-block-sns-list__soc-link-vk li-sns">
@@ -513,7 +524,7 @@
             </li>
             <li class="footer-contacts-container-block-sns-list__soc-link-pinterest li-sns">
               <a href="https://c.tenor.com/O_Xz04m4F4AAAAAM/mark-zuckerberg-facebook.gif" target="blank">
-                <svg class="svg" width="50" height="50" viewox="0 0 50 50" fill="currentColor"
+                <svg class="svg" width="50" height="50" viewbox="0 0 50 50" fill="currentColor"
                   xmlns="http://www.w3.org/2000/svg">
                   <path
                     d="M25.0005 0C11.1947 0 -0.000152588 11.1936 -0.000152588 25.0006C-0.000152588 35.2378 6.15562 44.0314 14.9646 47.8981C14.8941 46.1526 14.9511 44.0558 15.3998 42.159C15.8806 40.1282 18.6165 28.5359 18.6165 28.5359C18.6165 28.5359 17.8178 26.9397 17.8178 24.5808C17.8178 20.8763 19.9652 18.1077 22.6383 18.1077C24.912 18.1077 26.0107 19.8154 26.0107 21.8609C26.0107 24.1468 24.5537 27.5635 23.8037 30.7327C23.1768 33.3859 25.1338 35.5481 27.7498 35.5481C32.4864 35.5481 35.6761 29.4647 35.6761 22.2558C35.6761 16.7782 31.9864 12.6769 25.2742 12.6769C17.6902 12.6769 12.9659 18.3321 12.9659 24.6487C12.9659 26.8282 13.6082 28.3635 14.6146 29.5513C15.0768 30.0981 15.1409 30.318 14.9736 30.9462C14.8537 31.4058 14.5781 32.5128 14.4646 32.9519C14.2986 33.5853 13.7857 33.8109 13.2127 33.5776C9.71972 32.1513 8.0928 28.3263 8.0928 24.0263C8.0928 16.9237 14.0819 8.40898 25.9601 8.40898C35.5056 8.40898 41.7877 15.316 41.7877 22.7321C41.7877 32.5378 36.3351 39.8647 28.2979 39.8647C25.5998 39.8647 23.0607 38.4051 22.1909 36.7487C22.1909 36.7487 20.7396 42.5077 20.4325 43.6218C19.9024 45.5494 18.8646 47.4763 17.9159 48.9769C20.2162 49.6571 22.6024 50.0025 25.0011 50.0026C38.8063 50.0013 49.9998 38.8071 49.9998 25.0006C49.9998 11.1936 38.8063 0 25.0005 0V0Z" />
@@ -524,21 +535,21 @@
               <a href="https://c.tenor.com/MFlDqXC0VhcAAAAS/2j-instagram.gif" target="blank">
                 <svg class="svg" width="50" height="50" viewBox="0 0 50 50" fill="currentColor"
                   xmlns="http://www.w3.org/2000/svg">
-                  <g clip-path="url(#clip0_2212_10)">
-                    <path fill-rule="evenodd" clip-rule="evenodd"
-                      d="M44.7441 9.66919C48.1583 14.0494 50.0085 19.4463 49.9999 24.9999C49.9999 38.8051 38.805 49.9999 25.0006 49.9999C15.2871 49.9999 6.86597 44.4576 2.72751 36.3647H13.6237C18.816 36.3647 22.4429 33.566 22.4429 29.0923C22.4429 19.6108 11.5051 23.4737 11.5051 20.1089C11.5051 18.4878 12.8057 17.898 15.1858 17.898H22.7692C24.8711 17.898 27.3435 18.275 27.3435 20.5685V28.1243C27.3435 33.5955 31.6159 36.364 36.0441 36.364C40.548 36.364 44.7435 33.5955 44.7435 28.1243V9.66919H44.7441V9.66919Z" />
-                    <path fill-rule="evenodd" clip-rule="evenodd"
-                      d="M25.0005 2.43241e-05C30.0173 -0.00698868 34.919 1.50262 39.0626 4.33079V28.3013C39.0626 29.9628 37.7037 31.3224 36.0447 31.3224C34.3838 31.3224 33.0261 29.9628 33.0261 28.3013V21.1186C33.0261 15.3846 30.1242 12.9994 26.3447 12.9994H14.0441C9.59088 12.9994 5.89665 15.834 5.89665 20.3289C5.89665 22.6289 6.8819 25.9994 11.5415 26.8353C15.337 27.5186 16.8351 27.3199 16.8351 29.3506C16.8351 31.3224 14.6261 31.3224 11.7101 31.3224H0.808189C0.269676 29.2582 -0.0019826 27.1334 -0.000143311 25C-0.000143311 11.1981 11.196 2.43241e-05 25.0005 2.43241e-05Z" />
+
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M44.7441 9.66919C48.1583 14.0494 50.0085 19.4463 49.9999 24.9999C49.9999 38.8051 38.805 49.9999 25.0006 49.9999C15.2871 49.9999 6.86597 44.4576 2.72751 36.3647H13.6237C18.816 36.3647 22.4429 33.566 22.4429 29.0923C22.4429 19.6108 11.5051 23.4737 11.5051 20.1089C11.5051 18.4878 12.8057 17.898 15.1858 17.898H22.7692C24.8711 17.898 27.3435 18.275 27.3435 20.5685V28.1243C27.3435 33.5955 31.6159 36.364 36.0441 36.364C40.548 36.364 44.7435 33.5955 44.7435 28.1243V9.66919H44.7441V9.66919Z" />
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M25.0005 2.43241e-05C30.0173 -0.00698868 34.919 1.50262 39.0626 4.33079V28.3013C39.0626 29.9628 37.7037 31.3224 36.0447 31.3224C34.3838 31.3224 33.0261 29.9628 33.0261 28.3013V21.1186C33.0261 15.3846 30.1242 12.9994 26.3447 12.9994H14.0441C9.59088 12.9994 5.89665 15.834 5.89665 20.3289C5.89665 22.6289 6.8819 25.9994 11.5415 26.8353C15.337 27.5186 16.8351 27.3199 16.8351 29.3506C16.8351 31.3224 14.6261 31.3224 11.7101 31.3224H0.808189C0.269676 29.2582 -0.0019826 27.1334 -0.000143311 25C-0.000143311 11.1981 11.196 2.43241e-05 25.0005 2.43241e-05Z" />
                 </svg>
               </a>
             </li>
           </ul>
         </div>
         <div class="footer-contacts-container-block-map">
-          <figure class="footer-contacts-container-block-map-figure">
-            <img class="footer-contacts-container-block-map-figure-img" src="/img/footer-contacts/map.jpg" width="680"
-              alt="изображение карты">
-          </figure>
+          <iframe class="footer-contacts-container-block-map-figure"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2732.6436630987555!2d36.793083276713816!3d46.77191984524202!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40e7cb23aef43f8b%3A0x101438b430e14e6e!2z0JPQsNGH0LjQvNGD0YfQuCDQt9Cw0Ls!5e0!3m2!1sru!2sua!4v1681724036488!5m2!1sru!2sua"
+            style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
         </div>
       </div>
       <div class="footer-contacts-last">
