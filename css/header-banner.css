@@ -103,8 +103,7 @@
 }
 
 .header-baner-button__button:active {
-  background: var(--color-mostly-violet, var(--color-mostly-violet, #640AA3); );
-  ;
+  background: var(--color-mostly-violet, #640AA3);
   border-radius: 10px;
 
 }
@@ -131,7 +130,7 @@
 .header-banner-down__down {
   width: 97px;
   height: 97px;
-  color: white;
+  color: var(--color-white, #FFFFFF);
   transition: background 0.5s, border 0.5s, color 0.5s, outline 0.3s;
 }
 

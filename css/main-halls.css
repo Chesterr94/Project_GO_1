@@ -46,7 +46,7 @@
 
 .main-halls-figure {
   position: relative;
-  color: #FFFFFF;
+  color: var(--color-white, #FFFFFF);
   font-size: var(--font-size-70, 70px);
   font-weight: var(--font-weight-700, 700);
   text-align: center;

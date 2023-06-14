@@ -51,10 +51,8 @@
 }
 
 .header-nav-button__button:active {
-  background: var(--color-mostly-violet, var(--color-mostly-violet, #640AA3); );
-  ;
+  background: var(--color-mostly-violet, #640AA3);
   border: 1px solid var(--color-maximum-black, #000000);
-  ;
   border-radius: 10px;
   color: var(--color-white, #FFFFFF);
 }
