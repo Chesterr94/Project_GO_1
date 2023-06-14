@@ -1,7 +1,82 @@
 :root {
+	/* color */
 	--color-violet: #CD06FF;
+	--color-mostly-violet: #640AA3;
+	--color-violet-gray: #440F51;
+	--color-blueviolet: blueviolet;
 	--color-gray: #EADEED;
+	--color-mostly-gray: #EADEED;
 	--color-gray-dark: #6C0287;
 	--color-white: #FFFFFF;
+	--color-mostly-white: #fff;
 	--color-mostly-black: #1B1A1B;
+	--color-mini-black: #1C1A1A;
+	--color-maximum-black: #000000;
+	--color-dark: #211E1E;
+
+
+
+
+	/* font-zone */
+	--font-size-150: 150px;
+	--font-size-120: 120px;
+	--font-size-100: 100px;
+	--font-size-90: 90px;
+	--font-size-80: 80px;
+	--font-size-86: 86px;
+	--font-size-75: 75px;
+	--font-size-70: 70px;
+	--font-size-60: 60px;
+	--font-size-50: 50px;
+	--font-size-44: 44px;
+	--font-size-40: 40px;
+	--font-size-35: 35px;
+	--font-size-32: 32px;
+	--font-size-30: 30px;
+	--font-size-28: 28px;
+	--font-size-26: 26px;
+	--font-size-24: 24px;
+	--font-size-22: 22px;
+	--font-size-20: 20px;
+	--font-size-18: 18px;
+	--font-size-16: 16px;
+	--font-size-14: 14px;
+	--font-size-14: 12px;
+	--font-size-10: 10px;
+
+
+	--line-height-100%: 100%;
+	--line-height-150%: 150%;
+	--line-height-120%: 120%;
+	--line-height-141: 141px;
+	--line-height-113: 113px;
+	--line-height-106: 106px;
+	--line-height-105: 105px;
+	--line-height-80: 80px;
+	--line-height-71: 71px;
+	--line-height-64: 64px;
+	--line-height-60: 60px;
+	--line-height-50: 50px;
+	--line-height-40: 40px;
+	--line-height-37: 37px;
+	--line-height-36: 36px;
+	--line-height-34: 34px;
+	--line-height-31: 31px;
+	--line-height-30: 30px;
+	--line-height-28: 28px;
+	--line-height-26: 26px;
+	--line-height-25: 25px;
+	--line-height-24: 24px;
+	--line-height-22: 22px;
+	--line-height-20: 20px;
+	--line-height-18: 18px;
+	--line-height-16: 16px;
+	--line-height-14: 14px;
+	--line-height-12: 12px;
+	--line-height-11: 11px;
+
+
+	--font-weight-900: 900;
+	--font-weight-700: 700;
+	--font-weight-00: 400;
 }

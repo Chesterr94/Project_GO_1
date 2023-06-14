@@ -21,9 +21,9 @@
 }
 
 .header-banner__title-h1 {
-  font-size: 150px;
-  font-weight: 900;
-  line-height: 100%;
+  font-size: var(--font-size-150, 150px);
+  font-weight: var(--font-weight-900, 900);
+  line-height: var(--line-height-100%, 100%);
   margin: 0px;
   text-align: center;
   letter-spacing: -0.1em;
@@ -31,12 +31,12 @@
 
 .header-banner__text {
   display: flex;
-  font-size: 28px;
-  font-weight: 400;
+  font-size: var(--font-size-28, 28px);
+  font-weight: var(--font-weight-400, 400);
   padding-left: 100px;
   flex-basis: 100%;
   padding-bottom: 30px;
-  line-height: 50px;
+  line-height: var(--line-height-50, 50px);
 }
 
 .header-banner-info {
@@ -51,33 +51,33 @@
 
 .header-banner-info-hall {
   width: 193px;
-  font-weight: 400;
-  font-size: 30px;
-  line-height: 34px;
+  font-weight: var(--font-weight-400, 400);
+  font-size: var(--font-size-30, 30px);
+  line-height: var(--line-height-34, 34px);
   text-align: center;
 
 }
 
 .header-banner-info-hall__text {
-  font-weight: 900;
-  font-size: 100px;
-  line-height: 141px;
+  font-weight: var(--font-weight-900, 900);
+  font-size: var(--font-size-100, 100px);
+  line-height: var(--line-height-141, 141px);
   color: var(--color-violet, #CD06FF);
 }
 
 .header-banner-info-devices {
   width: 161px;
-  font-weight: 400;
-  font-size: 30px;
-  line-height: 34px;
+  font-weight: var(--font-weight-400, 400);
+  font-size: var(--font-size-30, 30px);
+  line-height: var(--line-height-34, 34px);
   text-align: center;
 
 }
 
 .header-banner-info-devices__text {
-  font-weight: 900;
-  font-size: 75px;
-  line-height: 106px;
+  font-weight: var(--font-weight-900, 900);
+  font-size: var(--font-size-75, 75px);
+  line-height: var(--line-height-106, 106px);
   font-variant: small-caps;
   color: var(--color-violet, #CD06FF);
 }
@@ -87,9 +87,9 @@
   height: 80px;
   background: var(--color-gray-dark, #6C0287);
   border-radius: 10px;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 30px;
+  font-weight: var(--font-weight-700, 700);
+  font-size: var(--font-size-26, 26px);
+  line-height: var(--line-height-30, 30px);
   text-transform: uppercase;
   color: var(--color-white, #FFFFFF);
   border-color: var(--color-gray-dark, #6C0287);
@@ -103,7 +103,8 @@
 }
 
 .header-baner-button__button:active {
-  background: #640AA3;
+  background: var(--color-mostly-violet, var(--color-mostly-violet, #640AA3); );
+  ;
   border-radius: 10px;
 
 }
@@ -168,16 +169,16 @@
 
 
   .header-banner__title-h1 {
-    font-weight: 900;
-    font-size: 120px;
-    line-height: 100%;
+    font-weight: var(--font-weight-900, 900);
+    font-size: var(--font-size-120, 120px);
+    line-height: var(--line-height-100%, 100%);
     letter-spacing: -0.1em;
   }
 
   .header-banner__text {
     padding: 20px 0 0 100px;
-    font-size: 22px;
-    line-height: 30px;
+    font-size: var(--font-size-22, 22px);
+    line-height: var(--line-height-30, 30px);
   }
 
   .header-banner-info {
@@ -187,29 +188,29 @@
 
   .header-banner-info-hall {
     width: 168px;
-    font-size: 26px;
+    font-size: var(--font-size-26, 26px);
   }
 
   .header-banner-info-hall__text {
-    font-size: 80px;
-    line-height: 113px;
+    font-size: var(--font-size-80, 80px);
+    line-height: var(--line-height-113, 113px);
   }
 
   .header-banner-info-devices {
     width: 140px;
-    font-size: 26px;
-    line-height: 30px;
+    font-size: var(--font-size-26, 26px);
+    line-height: var(--line-height-30, 30px);
   }
 
   .header-banner-info-devices__text {
-    font-size: 60px;
-    line-height: 105px;
+    font-size: var(--font-size-60, 60px);
+    line-height: var(--line-height-105, 105px);
   }
 
   .header-baner-button__button {
     width: 296px;
     height: 64px;
-    font-size: 22px;
+    font-size: var(--font-size-22, 22px);
     margin-left: 39px;
   }
 
@@ -240,14 +241,14 @@
   }
 
   .header-banner__title-h1 {
-    font-weight: 900;
-    font-size: 86px;
+    font-weight: var(--font-weight-900, 900);
+    font-size: var(--font-size-86, 86px);
   }
 
   .header-banner__text {
     padding: 20px 0 66px 25px;
-    font-size: 18px;
-    line-height: 24px;
+    font-size: var(--font-size-18, 18px);
+    line-height: var(--line-height-25 24px);
   }
 
   .header-banner-info {
@@ -259,32 +260,32 @@
 
   .header-banner-info-hall {
     width: 103px;
-    font-size: 16px;
-    line-height: 18px;
+    font-size: var(--font-size-16, 16px);
+    line-height: var(--line-height-18, 18px);
   }
 
   .header-banner-info-hall__text {
-    font-size: 50px;
-    line-height: 71px;
+    font-size: var(--font-size-50, 50px);
+    line-height: var(--line-height-71, 71px);
   }
 
   .header-banner-info-devices {
-    font-size: 16px;
-    line-height: 18px;
+    font-size: var(--font-size-16, 16px);
+    line-height: var(--line-height-18, 18px);
   }
 
   .header-banner-info-devices__text {
 
     width: 89px;
-    font-size: 40px;
-    line-height: 64px;
+    font-size: var(--font-size-40, 40px);
+    line-height: var(--line-height-64, 64px);
   }
 
   .header-baner-button__button {
     width: 214px;
     height: 46px;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: var(--font-size-16, 16px);
+    line-height: var(--line-height-25 24px);
     margin-left: 0;
     border-radius: 4px;
     margin: 50px 0 89px;
@@ -311,14 +312,14 @@
   }
 
   .header-banner__title-h1 {
-    font-size: 35px;
-    line-height: 100%;
+    font-size: var(--font-size-35, 35px);
+    line-height: var(--line-height-100%, 100%);
   }
 
   .header-banner__text {
     padding-left: 2.50vw;
-    font-size: 10px;
-    line-height: 14px;
+    font-size: var(--font-size-10, 10px);
+    line-height: var(--line-height-14, 14px);
     padding-bottom: 5px;
   }
 
@@ -329,33 +330,33 @@
 
   .header-banner-info-hall {
     width: 65px;
-    font-size: 10px;
-    line-height: 11px;
+    font-size: var(--font-size-10, 10px);
+    line-height: var(--line-height-11, 11px);
 
   }
 
   .header-banner-info-hall__text {
-    font-size: 26px;
-    line-height: 37px;
+    font-size: var(--font-size-26, 26px);
+    line-height: var(--line-height-37, 37px);
   }
 
   .header-banner-info-devices {
     width: 54px;
-    font-size: 10px;
-    line-height: 11px;
+    font-size: var(--font-size-10, 10px);
+    line-height: var(--line-height-11, 11px);
 
   }
 
   .header-banner-info-devices__text {
-    font-size: 22px;
-    line-height: 31px;
+    font-size: var(--font-size-22, 22px);
+    line-height: var(--line-height-31, 31px);
   }
 
   .header-baner-button__button {
     width: 117px;
     height: 27px;
-    font-size: 10px;
-    line-height: 12px;
+    font-size: var(--font-size-10, 10px);
+    line-height: var(--line-height-12, 12px);
     margin: 15px 0 0px;
   }
 

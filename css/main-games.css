@@ -16,9 +16,9 @@
   width: 800px;
   margin: 0 auto;
   text-align: center;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 50px;
+  font-weight: var(--font-weight-700, 700);
+  font-size: var(--font-size-40, 40px);
+  line-height: var(--line-height-50, 50px);
   text-transform: uppercase;
   padding: 50px 0 41px;
 }
@@ -74,9 +74,9 @@
   top: 166px;
   left: 40px;
   text-align: left;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 28px;
+  font-weight: var(--font-weight-700, 700);
+  font-size: var(--font-size-20, 20px);
+  line-height: var(--line-height-28, 28px);
 }
 
 @media (max-width: 1200px) {
@@ -88,8 +88,8 @@
 
   .main-games__title-h2 {
     width: 600px;
-    font-size: 30px;
-    line-height: 40px;
+    font-size: var(--font-size-30, 30px);
+    line-height: var(--line-height-40, 40px);
     padding-bottom: 30px;
   }
 
@@ -113,8 +113,8 @@
     max-width: 247px;
     top: 83px;
     left: 20px;
-    font-size: 20px;
-    line-height: 28px;
+    font-size: var(--font-size-20, 20px);
+    line-height: var(--line-height-28, 28px);
   }
 }
 
@@ -128,8 +128,8 @@
   .main-games__title-h2 {
     width: 100%;
     max-width: 500px;
-    font-size: 24px;
-    line-height: 36px;
+    font-size: var(--font-size-24, 24px);
+    line-height: var(--line-height-36, 36px);
     padding-bottom: 15px;
   }
 
@@ -155,8 +155,8 @@
     max-width: 274px;
     top: 132px;
     left: 30px;
-    font-size: 20px;
-    line-height: 28px;
+    font-size: var(--font-size-20, 20px);
+    line-height: var(--line-height-28, 28px);
   }
 }
 
@@ -169,8 +169,8 @@
 
   .main-games__title-h2 {
     width: 280px;
-    font-size: 14px;
-    line-height: 18px;
+    font-size: var(--font-size-14, 14px);
+    line-height: var(--line-height-18, 18px);
     padding-bottom: 15px;
   }
 
@@ -188,7 +188,7 @@
     max-width: 115px;
     top: 30px;
     left: 10px;
-    font-size: 10px;
-    line-height: 14px;
+    font-size: var(--font-size-10, 10px);
+    line-height: var(--line-height-14, 14px);
   }
 }

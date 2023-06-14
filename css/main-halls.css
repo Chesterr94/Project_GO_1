@@ -9,9 +9,9 @@
 
 .main-halls-title-h2 {
   width: 100%;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 50px;
+  font-weight: var(--font-weight-700, 700);
+  font-size: var(--font-size-40, 40px);
+  line-height: var(--line-height-50, 50px);
   text-align: center;
   text-transform: uppercase;
   padding-bottom: 40px;
@@ -47,11 +47,11 @@
 .main-halls-figure {
   position: relative;
   color: #FFFFFF;
-  font-size: 70px;
-  font-weight: 700;
+  font-size: var(--font-size-70, 70px);
+  font-weight: var(--font-weight-700, 700);
   text-align: center;
   text-transform: uppercase;
-  line-height: 80px;
+  line-height: var(--line-height-80, 80px);
   width: 100%;
   height: auto;
   max-height: 349px;
@@ -64,9 +64,9 @@
   overflow-wrap: normal;
   left: 170px;
   top: 100px;
-  font-weight: 700;
-  font-size: 70px;
-  line-height: 80px;
+  font-weight: var(--font-weight-700, 700);
+  font-size: var(--font-size-70, 70px);
+  line-height: var(--line-height-80, 80px);
   text-align: center;
   text-transform: uppercase;
 }
@@ -77,8 +77,8 @@
   }
 
   .main-halls-title-h2 {
-    font-size: 30px;
-    line-height: 40px;
+    font-size: var(--font-size-30, 30px);
+    line-height: var(--line-height-40, 40px);
     padding-bottom: 37px;
   }
 
@@ -92,8 +92,8 @@
     width: 252px;
     left: 95px;
     top: 73px;
-    font-size: 50px;
-    line-height: 60px;
+    font-size: var(--font-size-50, 50px);
+    line-height: var(--line-height-60, 60px);
   }
 }
 
@@ -103,8 +103,8 @@
   }
 
   .main-halls-title-h2 {
-    font-size: 24px;
-    line-height: 36px;
+    font-size: var(--font-size-24, 24px);
+    line-height: var(--line-height-36, 36px);
     padding-bottom: 35px;
   }
 
@@ -117,8 +117,8 @@
     width: 129px;
     left: 33%;
     top: 50px;
-    font-size: 40px;
-    line-height: 50px;
+    font-size: var(--font-size-40, 40px);
+    line-height: var(--line-height-50, 50px);
   }
 }
 
@@ -128,8 +128,8 @@
   }
 
   .main-halls-title-h2 {
-    font-size: 14px;
-    line-height: 18px;
+    font-size: var(--font-size-14, 14px);
+    line-height: var(--line-height-18, 18px);
     padding-bottom: 15px;
   }
 
@@ -160,7 +160,7 @@
     width: 84px;
     left: 100px;
     top: 50px;
-    font-size: 26px;
-    line-height: 34px;
+    font-size: var(--font-size-26, 26px);
+    line-height: var(--line-height-34, 34px);
   }
 }
